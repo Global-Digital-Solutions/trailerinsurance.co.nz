@@ -318,7 +318,7 @@ export default function AgreedValuePage() {
         {/* NZ Insurers */}
         <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-8">NZ Insurers with Agreed Value Options</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-8">Insurers with Agreed Value Options</h2>
 
             <div className="space-y-6">
               <div className="bg-white p-8 rounded-2xl border border-slate-200">

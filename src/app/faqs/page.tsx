@@ -50,7 +50,7 @@ export default function FAQsPage() {
       {/* Introduction Section */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-slate-900 mb-6">Understanding Trailer Insurance in New Zealand</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">Understanding Trailer Insurance</h2>
 
           <div className="space-y-6 mb-12">
             <p className="text-lg text-slate-700 leading-relaxed">

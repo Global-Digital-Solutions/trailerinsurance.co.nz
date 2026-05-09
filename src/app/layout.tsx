@@ -62,6 +62,34 @@ export const metadata: Metadata = {
   },
 };
 
+const schemaOrg = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://trailerinsurance.co.nz/#organization",
+      name: "TrailerInsurance.co.nz",
+      url: "https://trailerinsurance.co.nz",
+      logo: "https://trailerinsurance.co.nz/android-chrome-512x512.png",
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+6498859549",
+        contactType: "customer service",
+        areaServed: "NZ",
+        availableLanguage: "English",
+      },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://trailerinsurance.co.nz/#website",
+      url: "https://trailerinsurance.co.nz",
+      name: "TrailerInsurance.co.nz",
+      description: "Trailer insurance comparison and broker referral service",
+      publisher: { "@id": "https://trailerinsurance.co.nz/#organization" },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -72,6 +100,10 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#f59e0b" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link

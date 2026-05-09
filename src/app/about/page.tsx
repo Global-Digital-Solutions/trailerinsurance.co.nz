@@ -117,7 +117,7 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-4">Understanding the NZ Trailer Insurance Industry</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">Understanding the Trailer Insurance Industry</h2>
               <p className="text-slate-700 text-lg mb-4">
                 New Zealand's trailer insurance market is regulated by the Insurance Council of New Zealand (ICNZ), which ensures all brokers and insurers meet strict standards. This regulatory framework protects customers by requiring licensed professionals, transparent disclosure practices, and proper claims handling procedures.
               </p>

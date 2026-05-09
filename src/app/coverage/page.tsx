@@ -442,7 +442,7 @@ export default function CoveragePage() {
       {/* NZ-Specific Considerations Section */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-slate-900 mb-12">New Zealand-Specific Coverage Considerations</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-12">Coverage Considerations for Local Conditions</h2>
 
           <div className="space-y-8">
             <div className="p-8 bg-white rounded-lg border border-slate-200">

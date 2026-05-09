@@ -109,7 +109,7 @@ export default function CaravanInsurancePage() {
         <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">Why Caravan Insurance is Essential in New Zealand</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">Why Caravan Insurance is Essential</h2>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
                 Caravans are a significant investment, and many New Zealand families rely on them for holidays, weekend getaways, and extended travel adventures. Whether you own a single-axle van, a large family caravan, or a luxury pop-top, specialist caravan insurance is crucial to protect your asset.
               </p>
