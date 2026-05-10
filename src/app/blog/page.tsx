@@ -85,10 +85,11 @@ export default function BlogPage() {
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Stay Updated</h2>
           <p className="text-lg text-slate-700 mb-8">Get notified when we publish new trailer insurance tips and guides.</p>
           <form
-            action="https://shiny-bush-41cd.darinbutler.workers.dev"
+            action="/api/submit-form"
             method="POST"
             className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
           >
+            <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
             <input type="hidden" name="_subject" value="Newsletter Signup - TrailerInsurance.co.nz" />
             <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
             <input type="hidden" name="_captcha" value="false" />
