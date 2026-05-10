@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Script from 'next/script';
 import { User, Mail, Phone, FileText, DollarSign, Lock, ShieldCheck, Clock, MessageSquare } from 'lucide-react';
 
 interface QuoteFormProps {
@@ -103,6 +104,11 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
             </div>
           </div>
 
+          <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+          <div className="flex justify-center">
+            <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
+          </div>
+
           <button type="submit" disabled={isSubmitting} className="w-full bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 disabled:opacity-50 text-white font-bold py-3 rounded-xl transition-all duration-200 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5 flex items-center justify-center gap-2">
             {isSubmitting ? 'Submitting...' : 'Get My Free Quote →'}
           </button>
@@ -196,6 +202,11 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
                   <MessageSquare className="absolute left-3.5 top-3.5 w-5 h-5 text-slate-400" />
                   <textarea id="details-full" name="additionalDetails" rows={4} className="w-full pl-11 pr-4 py-3 border border-slate-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent text-base resize-none" placeholder="Tell us about your trailer — make, model, year, any specific coverage needs..." />
                 </div>
+              </div>
+
+              <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+              <div className="flex justify-center">
+                <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
               </div>
 
               <button type="submit" disabled={isSubmitting} className="w-full bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 disabled:opacity-50 text-white font-bold py-4 rounded-xl transition-all duration-300 text-lg flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
