@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, FormEvent } from 'react';
+import { useRouter } from 'next/navigation';
 import Script from 'next/script';
 import { User, Mail, Phone, FileText, DollarSign, Lock, ShieldCheck, Clock, MessageSquare } from 'lucide-react';
 
@@ -37,11 +38,37 @@ const securityBadges = [
 ];
 
 export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
+  const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState('');
 
-  const handleSubmit = () => {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError('');
+    const fd = new FormData(e.currentTarget);
+    const cfToken = fd.get('cf-turnstile-response');
+    if (!cfToken) {
+      setError('Please wait a moment for the security check to finish, then try again.');
+      return;
+    }
+    const data: Record<string, string> = {};
+    fd.forEach((value, key) => {
+      if (typeof value === 'string') data[key] = value;
+    });
     setIsSubmitting(true);
-  };
+    try {
+      const res = await fetch('/api/submit-form', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...data, cfTurnstileToken: cfToken }),
+      });
+      if (!res.ok) throw new Error('Submission failed');
+      router.push('/thank-you/');
+    } catch {
+      setError('Something went wrong. Please try again.');
+      setIsSubmitting(false);
+    }
+  }
 
   if (mode === 'compact') {
     return (
@@ -51,7 +78,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
           <p className="text-amber-100 text-sm mt-1">Compare top NZ trailer insurers in 2 minutes</p>
         </div>
 
-        <form action="/api/submit-form" method="POST" onSubmit={handleSubmit} className="p-6 space-y-4">
+        <form onSubmit={handleSubmit} className="p-6 space-y-4">
           <input type="hidden" name="_next" value="https://trailerinsurance.co.nz/thank-you/" />
           <input type="hidden" name="_subject" value="New Quote Request - TrailerInsurance.co.nz" />
           <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
@@ -108,6 +135,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
           <div className="flex justify-center">
             <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
           </div>
+          {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
 
           <button type="submit" disabled={isSubmitting} className="w-full bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 disabled:opacity-50 text-white font-bold py-3 rounded-xl transition-all duration-200 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5 flex items-center justify-center gap-2">
             {isSubmitting ? 'Submitting...' : 'Get My Free Quote →'}
@@ -140,7 +168,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
             <p className="text-amber-100 text-lg">Fill out the form below and a licensed broker will respond within 24 hours</p>
           </div>
 
-          <form action="/api/submit-form" method="POST" onSubmit={handleSubmit} className="p-6 sm:p-10">
+          <form onSubmit={handleSubmit} className="p-6 sm:p-10">
             <input type="hidden" name="_next" value="https://trailerinsurance.co.nz/thank-you/" />
             <input type="hidden" name="_subject" value="New Quote Request - TrailerInsurance.co.nz" />
             <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
@@ -208,6 +236,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
               <div className="flex justify-center">
                 <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
               </div>
+              {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
 
               <button type="submit" disabled={isSubmitting} className="w-full bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 disabled:opacity-50 text-white font-bold py-4 rounded-xl transition-all duration-300 text-lg flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
                 {isSubmitting ? 'Submitting...' : 'Get My Free Quote →'}

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { blogPosts } from '@/data/blog-posts';
 import CTABanner from '@/components/CTABanner';
+import NewsletterForm from '@/components/NewsletterForm';
 
 export const metadata = {
   title: 'Blog | Trailer Insurance Tips & Guides | TrailerInsurance.co.nz',
@@ -84,24 +85,7 @@ export default function BlogPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Stay Updated</h2>
           <p className="text-lg text-slate-700 mb-8">Get notified when we publish new trailer insurance tips and guides.</p>
-          <form
-            action="/api/submit-form"
-            method="POST"
-            className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
-          >
-            <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
-            <input type="hidden" name="_subject" value="Newsletter Signup - TrailerInsurance.co.nz" />
-            <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="text" name="name" placeholder="Your name" required className="flex-1 px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500" />
-            <input type="email" name="email" placeholder="Your email" required className="flex-1 px-4 py-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500" />
-            <button
-              type="submit"
-              className="px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600 text-white font-semibold rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all whitespace-nowrap"
-            >
-              Subscribe
-            </button>
-          </form>
+          <NewsletterForm />
         </div>
       </section>
 
