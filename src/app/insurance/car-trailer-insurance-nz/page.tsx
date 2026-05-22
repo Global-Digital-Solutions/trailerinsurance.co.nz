@@ -61,10 +61,10 @@ export default function CarTrailerInsurancePage() {
             provider: {
               '@type': 'LocalBusiness',
               name: 'TrailerInsurance.co.nz',
-              url: 'https://trailerinsurance.co.nz',
+              url: 'https://www.trailerinsurance.co.nz',
             },
             areaServed: 'NZ',
-            url: 'https://trailerinsurance.co.nz/insurance/car-trailer-insurance-nz',
+            url: 'https://www.trailerinsurance.co.nz/insurance/car-trailer-insurance-nz',
           }),
         }}
       />

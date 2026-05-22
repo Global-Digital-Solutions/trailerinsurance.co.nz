@@ -61,10 +61,10 @@ export default function HorseFloatInsurancePage() {
             provider: {
               '@type': 'LocalBusiness',
               name: 'TrailerInsurance.co.nz',
-              url: 'https://trailerinsurance.co.nz',
+              url: 'https://www.trailerinsurance.co.nz',
             },
             areaServed: 'NZ',
-            url: 'https://trailerinsurance.co.nz/insurance/horse-float-insurance-nz',
+            url: 'https://www.trailerinsurance.co.nz/insurance/horse-float-insurance-nz',
           }),
         }}
       />

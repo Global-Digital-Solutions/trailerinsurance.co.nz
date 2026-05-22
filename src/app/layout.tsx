@@ -31,17 +31,18 @@ export const metadata: Metadata = {
     "trailer insurance quote nz",
   ],
   authors: [{ name: "TrailerInsurance.co.nz" }],
-  alternates: { canonical: "https://trailerinsurance.co.nz" },
+  metadataBase: new URL('https://www.trailerinsurance.co.nz'),
+  alternates: { canonical: "https://www.trailerinsurance.co.nz" },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     type: "website",
     locale: "en_NZ",
-    url: "https://trailerinsurance.co.nz",
+    url: "https://www.trailerinsurance.co.nz",
     title: "TrailerInsurance.co.nz | Trailer Insurance NZ | Compare & Save",
     description:
       "Compare top trailer insurance providers in New Zealand. Caravan, boat trailer, horse float, and commercial trailer cover.",
     siteName: "TrailerInsurance.co.nz",
-    images: [{ url: 'https://trailerinsurance.co.nz/android-chrome-512x512.png', width: 512, height: 512, alt: 'TrailerInsurance.co.nz' }],
+    images: [{ url: 'https://www.trailerinsurance.co.nz/android-chrome-512x512.png', width: 512, height: 512, alt: 'TrailerInsurance.co.nz' }],
   },
   twitter: {
     card: "summary_large_image",
@@ -67,10 +68,10 @@ const schemaOrg = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://trailerinsurance.co.nz/#organization",
+      "@id": "https://www.trailerinsurance.co.nz/#organization",
       name: "TrailerInsurance.co.nz",
-      url: "https://trailerinsurance.co.nz",
-      logo: "https://trailerinsurance.co.nz/android-chrome-512x512.png",
+      url: "https://www.trailerinsurance.co.nz",
+      logo: "https://www.trailerinsurance.co.nz/android-chrome-512x512.png",
       contactPoint: {
         "@type": "ContactPoint",
         contactType: "customer service",
@@ -80,11 +81,11 @@ const schemaOrg = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://trailerinsurance.co.nz/#website",
-      url: "https://trailerinsurance.co.nz",
+      "@id": "https://www.trailerinsurance.co.nz/#website",
+      url: "https://www.trailerinsurance.co.nz",
       name: "TrailerInsurance.co.nz",
       description: "Trailer insurance comparison and broker referral service",
-      publisher: { "@id": "https://trailerinsurance.co.nz/#organization" },
+      publisher: { "@id": "https://www.trailerinsurance.co.nz/#organization" },
     },
   ],
 };

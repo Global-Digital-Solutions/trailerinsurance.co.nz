@@ -72,10 +72,10 @@ export default function ContentsCoverPage() {
             provider: {
               '@type': 'LocalBusiness',
               name: 'TrailerInsurance.co.nz',
-              url: 'https://trailerinsurance.co.nz',
+              url: 'https://www.trailerinsurance.co.nz',
             },
             areaServed: 'NZ',
-            url: 'https://trailerinsurance.co.nz/types/contents-cover',
+            url: 'https://www.trailerinsurance.co.nz/types/contents-cover',
           }),
         }}
       />

@@ -5,7 +5,7 @@ import { AlertCircle, Clock, Mail, FileText, Heart, ShieldCheck, ChevronRight } 
 export const metadata: Metadata = {
   title: 'Making a Claim | TrailerInsurance.co.nz',
   description: 'How to make a trailer and caravan insurance claim, our complaints process, and support for vulnerable customers. TrailerInsurance.co.nz is a referral service — claims are handled directly by your insurer.',
-  alternates: { canonical: 'https://trailerinsurance.co.nz/claims/' },
+  alternates: { canonical: 'https://www.trailerinsurance.co.nz/claims/' },
 };
 
 export default function ClaimsPage() {
@@ -13,8 +13,8 @@ export default function ClaimsPage() {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://trailerinsurance.co.nz' },
-      { '@type': 'ListItem', position: 2, name: 'Making a Claim', item: 'https://trailerinsurance.co.nz/claims/' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.trailerinsurance.co.nz' },
+      { '@type': 'ListItem', position: 2, name: 'Making a Claim', item: 'https://www.trailerinsurance.co.nz/claims/' },
     ],
   };
 

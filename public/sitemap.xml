@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
-  <url><loc>https://trailerinsurance.co.nz/</loc><lastmod>2026-04-08</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
 
   <!-- Core Pages -->
-  <url><loc>https://trailerinsurance.co.nz/about/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/contact/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/coverage/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/compare/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/faqs/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/about/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/contact/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/coverage/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/compare/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/faqs/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Blog Index -->
-  <url><loc>https://trailerinsurance.co.nz/blog/</loc><lastmod>2026-04-08</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/blog/</loc><lastmod>2026-05-22</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
 
   <!-- Legal Pages -->
-  <url><loc>https://trailerinsurance.co.nz/privacy/</loc><lastmod>2026-04-08</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/terms/</loc><lastmod>2026-04-08</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/disclaimer/</loc><lastmod>2026-04-08</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/privacy/</loc><lastmod>2026-05-22</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/terms/</loc><lastmod>2026-05-22</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/disclaimer/</loc><lastmod>2026-05-22</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 
   <!-- Coverage Type Pages -->
-  <url><loc>https://trailerinsurance.co.nz/types/comprehensive/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/types/third-party-liability/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/types/agreed-value/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/types/commercial/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/types/contents-cover/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/types/towing-storage/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/types/comprehensive/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/types/third-party-liability/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/types/agreed-value/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/types/commercial/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/types/contents-cover/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/types/towing-storage/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 
   <!-- Insurance Landing Pages (High Priority) -->
-  <url><loc>https://trailerinsurance.co.nz/insurance/caravan-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/boat-trailer-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/horse-float-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/camper-trailer-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/box-trailer-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/flatbed-trailer-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/car-trailer-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/enclosed-trailer-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/best-trailer-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/trailer-insurance-cost-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/compare-trailer-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/insurance/cheap-trailer-insurance-nz/</loc><lastmod>2026-04-08</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/caravan-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/boat-trailer-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/horse-float-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/camper-trailer-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/box-trailer-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/flatbed-trailer-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/car-trailer-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/enclosed-trailer-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/best-trailer-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/trailer-insurance-cost-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/compare-trailer-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/insurance/cheap-trailer-insurance-nz/</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 
   <!-- Blog Posts (Keep original dates) -->
-  <url><loc>https://trailerinsurance.co.nz/blog/understanding-trailer-insurance-nz/</loc><lastmod>2026-04-01</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/blog/caravan-insurance-tips-nz/</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/blog/boat-trailer-insurance-guide/</loc><lastmod>2026-03-22</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/blog/horse-float-insurance-nz/</loc><lastmod>2026-03-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/blog/trailer-theft-prevention-nz/</loc><lastmod>2026-03-12</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/blog/commercial-trailer-insurance-guide/</loc><lastmod>2026-03-08</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/blog/trailer-insurance-claims-tips/</loc><lastmod>2026-03-02</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/blog/towing-safety-insurance-nz/</loc><lastmod>2026-02-25</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://trailerinsurance.co.nz/blog/natural-disaster-trailer-cover-nz/</loc><lastmod>2026-02-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/blog/understanding-trailer-insurance-nz/</loc><lastmod>2026-04-01</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/blog/caravan-insurance-tips-nz/</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/blog/boat-trailer-insurance-guide/</loc><lastmod>2026-03-22</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/blog/horse-float-insurance-nz/</loc><lastmod>2026-03-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/blog/trailer-theft-prevention-nz/</loc><lastmod>2026-03-12</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/blog/commercial-trailer-insurance-guide/</loc><lastmod>2026-03-08</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/blog/trailer-insurance-claims-tips/</loc><lastmod>2026-03-02</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/blog/towing-safety-insurance-nz/</loc><lastmod>2026-02-25</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.trailerinsurance.co.nz/blog/natural-disaster-trailer-cover-nz/</loc><lastmod>2026-02-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
 </urlset>

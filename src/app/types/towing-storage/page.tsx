@@ -72,10 +72,10 @@ export default function TowingStoragePage() {
             provider: {
               '@type': 'LocalBusiness',
               name: 'TrailerInsurance.co.nz',
-              url: 'https://trailerinsurance.co.nz',
+              url: 'https://www.trailerinsurance.co.nz',
             },
             areaServed: 'NZ',
-            url: 'https://trailerinsurance.co.nz/types/towing-storage',
+            url: 'https://www.trailerinsurance.co.nz/types/towing-storage',
           }),
         }}
       />

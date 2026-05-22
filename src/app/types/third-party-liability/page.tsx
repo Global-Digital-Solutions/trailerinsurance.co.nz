@@ -72,10 +72,10 @@ export default function ThirdPartyLiabilityPage() {
             provider: {
               '@type': 'LocalBusiness',
               name: 'TrailerInsurance.co.nz',
-              url: 'https://trailerinsurance.co.nz',
+              url: 'https://www.trailerinsurance.co.nz',
             },
             areaServed: 'NZ',
-            url: 'https://trailerinsurance.co.nz/types/third-party-liability',
+            url: 'https://www.trailerinsurance.co.nz/types/third-party-liability',
           }),
         }}
       />

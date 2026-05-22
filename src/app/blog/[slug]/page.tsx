@@ -99,7 +99,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <p className="text-slate-600 mb-4">Found this helpful? Share it with your network.</p>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href={`https://www.facebook.com/sharer/sharer.php?u=https://trailerinsurance.co.nz/blog/${post.slug}`}
+                  href={`https://www.facebook.com/sharer/sharer.php?u=https://www.trailerinsurance.co.nz/blog/${post.slug}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-semibold"
@@ -107,7 +107,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   Share on Facebook
                 </a>
                 <a
-                  href={`https://twitter.com/intent/tweet?url=https://trailerinsurance.co.nz/blog/${post.slug}&text=${encodeURIComponent(post.title)}`}
+                  href={`https://twitter.com/intent/tweet?url=https://www.trailerinsurance.co.nz/blog/${post.slug}&text=${encodeURIComponent(post.title)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-blue-400 text-white rounded-lg hover:bg-blue-500 transition-colors text-sm font-semibold"
@@ -115,7 +115,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   Share on Twitter
                 </a>
                 <a
-                  href={`https://www.linkedin.com/sharing/share-offsite/?url=https://trailerinsurance.co.nz/blog/${post.slug}`}
+                  href={`https://www.linkedin.com/sharing/share-offsite/?url=https://www.trailerinsurance.co.nz/blog/${post.slug}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors text-sm font-semibold"

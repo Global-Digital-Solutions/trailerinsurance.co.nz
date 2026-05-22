@@ -108,8 +108,8 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "TrailerInsurance.co.nz",
-            "url": "https://trailerinsurance.co.nz",
-            "logo": "https://trailerinsurance.co.nz/favicon.ico",
+            "url": "https://www.trailerinsurance.co.nz",
+            "logo": "https://www.trailerinsurance.co.nz/favicon.ico",
             "contactPoint": {
               "@type": "ContactPoint",
               "contactType": "customer service",
@@ -128,10 +128,10 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "TrailerInsurance.co.nz",
-            "url": "https://trailerinsurance.co.nz",
+            "url": "https://www.trailerinsurance.co.nz",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://trailerinsurance.co.nz/?q={search_term_string}",
+              "target": "https://www.trailerinsurance.co.nz/?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           }),
