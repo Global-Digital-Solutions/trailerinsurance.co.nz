@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Logo from './Logo';
 import { Shield, Zap, HeadphonesIcon, Lock, ExternalLink } from 'lucide-react';
 
 const footerTrustBadges = [
@@ -99,25 +98,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8">
-          <div className="col-span-2 sm:col-span-3 lg:col-span-1">
-            <Logo variant="white" />
-            <div className="mt-4 space-y-3">
-              <div>
-                <p className="text-xs text-slate-400 uppercase tracking-wide mb-1">Phone</p>
-                <a href="tel:+6498859549" className="text-white font-semibold hover:text-amber-300 transition-colors">
-                  09 885 9549
-                </a>
-              </div>
-              <div>
-                <p className="text-xs text-slate-400 uppercase tracking-wide mb-1">Email</p>
-                <a href="mailto:hello@cover4you.co.nz" className="text-white font-semibold hover:text-amber-300 transition-colors break-all text-sm">
-                  hello@cover4you.co.nz
-                </a>
-              </div>
-            </div>
-          </div>
-
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
           <div>
             <h3 className="text-white font-bold mb-4">{footerLinks.company.title}</h3>
             <ul className="space-y-2">
@@ -160,17 +141,10 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
+          </div>
 
-            <h3 className="text-white font-bold mb-4 mt-8">{footerLinks.legal.title}</h3>
-            <ul className="space-y-2">
-              {footerLinks.legal.links.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} className="text-slate-400 hover:text-amber-300 transition-colors text-sm">{link.label}</Link>
-                </li>
-              ))}
-            </ul>
-
-            <h3 className="text-white font-bold mb-4 mt-8">{footerLinks.regulatory.title}</h3>
+          <div>
+            <h3 className="text-white font-bold mb-4">{footerLinks.regulatory.title}</h3>
             <ul className="space-y-2">
               {footerLinks.regulatory.links.map((link) => (
                 <li key={link.href}>
@@ -196,12 +170,16 @@ export default function Footer() {
 
       <div className="border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
+          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3">
             <p className="text-slate-400 text-sm">&copy; {currentYear} TrailerInsurance.co.nz. All rights reserved.</p>
-            <div className="flex items-center gap-4 text-slate-400 text-sm">
-              <span>Partnered with Licensed Insurance Brokers</span>
-              <span className="hidden sm:inline">|</span>
-              <Link href="/disclaimer" className="hover:text-amber-300 transition-colors">Disclaimer</Link>
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-slate-400 text-sm">
+              <span className="text-slate-500">Partnered with Licensed Insurance Brokers</span>
+              <span className="hidden sm:inline text-slate-700">|</span>
+              {footerLinks.legal.links.map((link, i) => (
+                <Link key={link.href} href={link.href} className="hover:text-amber-300 transition-colors">
+                  {link.label}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
