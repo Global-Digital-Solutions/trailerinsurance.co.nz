@@ -95,7 +95,7 @@ export default function HowItWorks() {
 
         <div className={`text-center mt-12 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '900ms' }}>
           <a href="#quote-form" className="inline-flex items-center gap-2 px-8 py-4 bg-amber-600 hover:bg-amber-700 text-white font-bold text-lg rounded-xl transition-all duration-300 shadow-lg shadow-amber-600/25 hover:shadow-amber-600/40 hover:-translate-y-0.5">
-            Start Your Free Quote
+            Start Your Quote
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

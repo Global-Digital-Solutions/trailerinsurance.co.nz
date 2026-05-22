@@ -11,7 +11,7 @@ interface CTABannerProps {
 export default function CTABanner({
   title = 'Ready to Protect Your Trailer?',
   description = 'Get personalised trailer insurance quotes from NZ\'s top providers.',
-  buttonText = 'Get a Free Quote',
+  buttonText = 'Get a Quote',
   buttonLink = '/#quote-form',
   variant = 'default',
 }: CTABannerProps) {

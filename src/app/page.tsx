@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { useState } from 'react';
 import AnimatedStats from '@/components/AnimatedStats';
 import HowItWorks from '@/components/HowItWorks';
-import Testimonials from '@/components/Testimonials';
 import CTABanner from '@/components/CTABanner';
 import QuoteForm from '@/components/QuoteForm';
 import HeroCarousel from '@/components/HeroCarousel';
@@ -182,7 +181,7 @@ export default function HomePage() {
                   { icon: CheckCircle2, text: 'No Broker Fees' },
                   { icon: Lock, text: '256-bit SSL Secure' },
                   { icon: Zap, text: '24hr Response' },
-                  { icon: MessageCircle, text: 'Free Consultation' },
+                  { icon: MessageCircle, text: 'Expert Consultation' },
                 ].map((badge) => {
                   const Icon = badge.icon;
                   return (
@@ -196,7 +195,7 @@ export default function HomePage() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/#quote-form" className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-3.5 px-8 rounded-xl transition-all duration-300 inline-flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
-                  Get a Free Quote <span>→</span>
+                  Get a Quote <span>→</span>
                 </Link>
                 <Link href="/compare" className="bg-white/15 hover:bg-white/25 text-white font-bold py-3.5 px-8 rounded-xl transition-all duration-300 border border-white/30 inline-flex items-center justify-center gap-2 backdrop-blur-sm">
                   Compare Providers <span>→</span>
@@ -213,6 +212,7 @@ export default function HomePage() {
         <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-14">
+              <span className="inline-block bg-amber-100 text-amber-700 text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">Coverage Options</span>
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Coverage for Every Trailer Type</h2>
               <p className="text-slate-600 max-w-2xl mx-auto text-lg">Whether you own a caravan, boat trailer, horse float, or commercial trailer, we have protection tailored for you</p>
             </div>
@@ -221,62 +221,118 @@ export default function HomePage() {
               {trailerTypes.map((type) => {
                 const Icon = type.icon;
                 return (
-                  <Link key={type.href} href={type.href} className="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 hover:border-amber-300 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
-                    <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center mb-5 shadow-lg shadow-amber-500/20 group-hover:scale-110 transition-transform duration-300">
-                      <Icon className="w-7 h-7 text-white" />
+                  <Link key={type.href} href={type.href} className="bg-white rounded-2xl overflow-hidden border border-slate-200 hover:border-amber-300 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 group flex flex-col">
+                    <div className="bg-gradient-to-br from-amber-500 to-orange-600 px-6 pt-6 pb-8 relative overflow-hidden">
+                      <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-12 translate-x-12" />
+                      <div className="absolute bottom-0 left-0 w-20 h-20 bg-white/10 rounded-full translate-y-8 -translate-x-8" />
+                      <div className="w-12 h-12 rounded-xl bg-white/20 backdrop-blur-sm flex items-center justify-center mb-3 relative">
+                        <Icon className="w-6 h-6 text-white" />
+                      </div>
+                      <h3 className="text-white font-bold text-xl relative leading-tight">{type.title}</h3>
                     </div>
-                    <h3 className="text-xl font-bold text-slate-900 mb-2">{type.title}</h3>
-                    <p className="text-slate-600 text-sm leading-relaxed mb-4">{type.description}</p>
-                    <span className="text-amber-600 font-semibold text-sm inline-flex items-center gap-1 group-hover:gap-2 transition-all">
-                      Learn more <span>→</span>
-                    </span>
+                    <div className="p-6 flex flex-col flex-1">
+                      <p className="text-slate-600 text-sm leading-relaxed flex-1">{type.description}</p>
+                      <span className="mt-4 text-amber-600 font-semibold text-sm inline-flex items-center gap-1 group-hover:gap-2.5 transition-all">
+                        Explore cover <span>→</span>
+                      </span>
+                    </div>
                   </Link>
                 );
               })}
+            </div>
+
+            <div className="mt-10 text-center">
+              <Link href="/coverage" className="inline-flex items-center gap-2 text-amber-700 font-semibold bg-amber-50 hover:bg-amber-100 border border-amber-200 px-6 py-3 rounded-xl transition-colors text-sm">
+                View full coverage guide <span>→</span>
+              </Link>
             </div>
           </div>
         </section>
 
         {/* Why Trailer Insurance is Essential */}
-        <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
-          <div className="max-w-7xl mx-auto">
+        <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-900 relative overflow-hidden">
+          {/* Background decoration */}
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute top-0 right-0 w-96 h-96 bg-amber-500/5 rounded-full translate-x-48 -translate-y-48" />
+            <div className="absolute bottom-0 left-0 w-64 h-64 bg-orange-500/5 rounded-full -translate-x-32 translate-y-32" />
+          </div>
+          <div className="max-w-7xl mx-auto relative">
             <div className="text-center mb-14">
-              <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Why Trailer Insurance is Essential</h2>
-              <p className="text-slate-600 max-w-2xl mx-auto text-lg">Your car insurance probably doesn&apos;t cover your trailer the way you think it does.</p>
+              <span className="inline-block bg-amber-500/20 text-amber-300 text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4 border border-amber-500/30">Important</span>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Why Trailer Insurance Matters</h2>
+              <p className="text-slate-400 max-w-2xl mx-auto text-lg">Your car insurance probably doesn&apos;t cover your trailer the way you think it does.</p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {whyEssential.map((item, idx) => {
                 const Icon = item.icon;
                 return (
-                  <div key={idx} className="bg-slate-50 p-6 sm:p-8 rounded-2xl border border-slate-100 hover:border-amber-200 hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center mb-5 shadow-lg shadow-amber-500/20">
-                      <Icon className="w-6 h-6 text-white" />
+                  <div key={idx} className="bg-slate-800/60 backdrop-blur-sm border border-slate-700 hover:border-amber-500/50 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-amber-500/5">
+                    <div className="w-11 h-11 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center mb-4 shadow-lg shadow-amber-500/20">
+                      <Icon className="w-5 h-5 text-white" />
                     </div>
-                    <h3 className="text-lg font-bold text-slate-900 mb-2">{item.title}</h3>
-                    <p className="text-slate-600 text-sm leading-relaxed">{item.description}</p>
+                    <h3 className="text-white font-bold text-base mb-2">{item.title}</h3>
+                    <p className="text-slate-400 text-sm leading-relaxed">{item.description}</p>
                   </div>
                 );
               })}
             </div>
 
-            <div className="mt-12 bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 rounded-2xl p-6 sm:p-8">
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center flex-shrink-0">
+            <div className="mt-10 bg-gradient-to-r from-amber-500/10 to-orange-500/10 border border-amber-500/20 rounded-2xl p-6 sm:p-8">
+              <div className="flex flex-col sm:flex-row items-start gap-4">
+                <div className="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center flex-shrink-0 shadow-lg shadow-amber-500/30">
                   <AlertTriangle className="w-5 h-5 text-white" />
                 </div>
-                <div>
-                  <h4 className="font-bold text-slate-900 mb-1">Did You Know?</h4>
-                  <p className="text-slate-700 text-sm leading-relaxed">
+                <div className="flex-1">
+                  <h4 className="font-bold text-white mb-2 text-lg">Did You Know?</h4>
+                  <p className="text-slate-300 text-sm leading-relaxed">
                     Most comprehensive car insurance policies in New Zealand only cover your trailer while it&apos;s physically attached to the insured vehicle. Once you unhitch at a campsite, boat ramp, or in your driveway, your trailer is generally considered a separate, uninsured asset. Standalone trailer insurance covers you 24/7 — hitched or unhitched.
                   </p>
+                </div>
+                <div className="flex-shrink-0 sm:self-center">
+                  <Link href="/#quote-form" className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold px-5 py-2.5 rounded-xl transition-all text-sm whitespace-nowrap shadow-lg shadow-amber-500/25">
+                    Get Covered <span>→</span>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <Testimonials />
+        {/* Trust & Process Strip */}
+        <section className="py-14 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-100">
+          <div className="max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+              <div className="flex flex-col items-center gap-3">
+                <div className="w-14 h-14 rounded-2xl bg-amber-50 border-2 border-amber-200 flex items-center justify-center">
+                  <Shield className="w-7 h-7 text-amber-600" />
+                </div>
+                <div>
+                  <p className="font-bold text-slate-900 text-base">Licensed Insurance Brokers</p>
+                  <p className="text-slate-500 text-sm mt-1">Every quote comes from a fully licensed NZ insurance adviser</p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center gap-3">
+                <div className="w-14 h-14 rounded-2xl bg-amber-50 border-2 border-amber-200 flex items-center justify-center">
+                  <Zap className="w-7 h-7 text-amber-600" />
+                </div>
+                <div>
+                  <p className="font-bold text-slate-900 text-base">Response Within 24 Hours</p>
+                  <p className="text-slate-500 text-sm mt-1">Most enquiries are responded to same business day</p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center gap-3">
+                <div className="w-14 h-14 rounded-2xl bg-amber-50 border-2 border-amber-200 flex items-center justify-center">
+                  <Lock className="w-7 h-7 text-amber-600" />
+                </div>
+                <div>
+                  <p className="font-bold text-slate-900 text-base">No Broker Fees</p>
+                  <p className="text-slate-500 text-sm mt-1">Comparing and connecting is always at no cost to you</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* FAQ Section */}
         <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
@@ -313,25 +369,35 @@ export default function HomePage() {
         {/* Insurance Guides Section */}
         <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-14">
-              <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Trailer Insurance Guides</h2>
-              <p className="text-slate-600 max-w-2xl mx-auto text-lg">Explore our comprehensive guides to find the right trailer insurance for your needs</p>
+            <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between mb-12 gap-4">
+              <div>
+                <span className="inline-block bg-amber-100 text-amber-700 text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-3">Guides</span>
+                <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">Trailer Insurance Guides</h2>
+                <p className="text-slate-600 mt-2 max-w-xl">Everything you need to know about insuring your trailer in New Zealand</p>
+              </div>
+              <Link href="/compare" className="flex-shrink-0 text-amber-600 font-semibold hover:text-amber-700 transition-colors text-sm inline-flex items-center gap-1.5">
+                Compare providers <span>→</span>
+              </Link>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { title: 'Caravan Insurance NZ', href: '/insurance/caravan-insurance-nz', desc: 'Protect your home away from home with comprehensive caravan cover' },
-                { title: 'Boat Trailer Insurance', href: '/insurance/boat-trailer-insurance-nz', desc: 'Dedicated cover for your boat trailer on and off the road' },
-                { title: 'Horse Float Insurance', href: '/insurance/horse-float-insurance-nz', desc: 'Specialist insurance for equine transport and horse floats' },
-                { title: 'Camper Trailer Insurance', href: '/insurance/camper-trailer-insurance-nz', desc: 'Coverage for camper trailers and pop-top caravans' },
-                { title: 'Best Trailer Insurance NZ', href: '/insurance/best-trailer-insurance-nz', desc: 'Compare the top trailer insurance providers in New Zealand' },
-                { title: 'Trailer Insurance Cost', href: '/insurance/trailer-insurance-cost-nz', desc: 'Understand what trailer insurance costs in NZ' },
-                { title: 'Compare Trailer Insurance', href: '/insurance/compare-trailer-insurance-nz', desc: 'Side-by-side comparison of NZ trailer insurers' },
-                { title: 'Commercial Trailer Cover', href: '/insurance/flatbed-trailer-insurance-nz', desc: 'Insurance for flatbed and commercial trailers' },
+                { title: 'Caravan Insurance', href: '/insurance/caravan-insurance-nz', desc: 'Protect your home away from home with comprehensive caravan cover', tag: 'Popular' },
+                { title: 'Boat Trailer Insurance', href: '/insurance/boat-trailer-insurance-nz', desc: 'Dedicated cover for your boat trailer on and off the road', tag: 'Marine' },
+                { title: 'Horse Float Insurance', href: '/insurance/horse-float-insurance-nz', desc: 'Specialist insurance for equine transport and horse floats', tag: 'Specialist' },
+                { title: 'Camper Trailer Cover', href: '/insurance/camper-trailer-insurance-nz', desc: 'Coverage for camper trailers and pop-top caravans', tag: 'Holiday' },
+                { title: 'Best Trailer Insurance', href: '/insurance/best-trailer-insurance-nz', desc: 'Compare the top trailer insurance providers in New Zealand', tag: 'Compare' },
+                { title: 'Trailer Insurance Cost', href: '/insurance/trailer-insurance-cost-nz', desc: 'Understand what trailer insurance costs in NZ', tag: 'Pricing' },
+                { title: 'Compare Insurance', href: '/insurance/compare-trailer-insurance-nz', desc: 'Side-by-side comparison of NZ trailer insurers', tag: 'Compare' },
+                { title: 'Commercial Trailer', href: '/insurance/flatbed-trailer-insurance-nz', desc: 'Insurance for flatbed and commercial trailers', tag: 'Business' },
               ].map((guide) => (
-                <Link key={guide.href} href={guide.href} className="bg-slate-50 p-5 rounded-2xl border border-slate-200 hover:border-amber-300 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
-                  <h3 className="text-base font-bold text-slate-900 mb-1.5 group-hover:text-amber-600 transition-colors">{guide.title}</h3>
-                  <p className="text-slate-600 text-sm leading-relaxed">{guide.desc}</p>
+                <Link key={guide.href} href={guide.href} className="bg-white border border-slate-200 hover:border-amber-300 rounded-2xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group">
+                  <div className="h-1.5 bg-gradient-to-r from-amber-400 to-orange-500" />
+                  <div className="p-5">
+                    <span className="inline-block text-xs font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-md mb-2">{guide.tag}</span>
+                    <h3 className="text-base font-bold text-slate-900 mb-1.5 group-hover:text-amber-600 transition-colors leading-snug">{guide.title}</h3>
+                    <p className="text-slate-500 text-sm leading-relaxed">{guide.desc}</p>
+                  </div>
                 </Link>
               ))}
             </div>

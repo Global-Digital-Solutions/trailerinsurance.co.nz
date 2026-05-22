@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "TrailerInsurance.co.nz | Trailer Insurance NZ | Compare & Save",
   description:
-    "Compare top trailer insurance providers in New Zealand. Get quotes for caravan, boat trailer, horse float, and commercial trailer insurance. Free quotes within 24 hours.",
+    "Compare top trailer insurance providers in New Zealand. Get quotes for caravan, boat trailer, horse float, and commercial trailer insurance. Quotes within 24 hours.",
   keywords: [
     "trailer insurance nz",
     "trailer insurance new zealand",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "TrailerInsurance.co.nz | Trailer Insurance NZ | Compare & Save",
-    description: "Compare top trailer insurance providers in New Zealand. Free quotes within 24 hours from ICNZ-registered brokers.",
+    description: "Compare top trailer insurance providers in New Zealand. Quotes within 24 hours from ICNZ-registered brokers.",
   },
   icons: {
     icon: [
@@ -112,7 +112,7 @@ export default function RootLayout({
         />
         <meta
           name="description"
-          content="Compare top trailer insurance providers in New Zealand. Get quotes for caravan, boat trailer, horse float, and commercial trailer insurance. Free quotes within 24 hours."
+          content="Compare top trailer insurance providers in New Zealand. Get quotes for caravan, boat trailer, horse float, and commercial trailer insurance. Quotes within 24 hours."
         />
         <script
           async

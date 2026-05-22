@@ -39,7 +39,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
     return (
       <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200">
         <div className="bg-gradient-to-r from-amber-500 to-orange-600 px-6 py-5">
-          <h3 className="text-white font-bold text-xl">Get Your Free Quote</h3>
+          <h3 className="text-white font-bold text-xl">Get Your Quote</h3>
           <p className="text-amber-100 text-sm mt-1">Compare top NZ trailer insurers in 2 minutes</p>
         </div>
 

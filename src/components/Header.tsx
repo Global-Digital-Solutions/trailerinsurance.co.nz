@@ -19,8 +19,6 @@ const navLinks = [
   { label: 'Coverage', href: '/coverage' },
   { label: 'Compare', href: '/compare' },
   { label: 'Blog', href: '/blog' },
-  { label: 'About', href: '/about' },
-  { label: 'Contact', href: '/contact' },
 ];
 
 export default function Header() {
@@ -62,7 +60,7 @@ export default function Header() {
 
             <div className="hidden lg:block">
               <Link href="/#quote-form" className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-semibold px-6 py-2.5 rounded-lg transition-all duration-200 shadow-md hover:shadow-lg">
-                Get a Free Quote
+                Get a Quote
               </Link>
             </div>
 
@@ -107,7 +105,7 @@ export default function Header() {
 
                 <div className="pt-4 px-2">
                   <Link href="/#quote-form" className="block w-full text-center bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold px-6 py-3.5 rounded-xl transition-all duration-200 shadow-md text-base" onClick={() => setMobileMenuOpen(false)}>
-                    Get a Free Quote
+                    Get a Quote
                   </Link>
                 </div>
               </div>

@@ -133,7 +133,7 @@ export default function FAQsPage() {
                 href="/#quote-form"
                 className="inline-block px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-600 text-white font-semibold rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all"
               >
-                Get Your Free Quote
+                Get Your Quote
               </a>
             </div>
           </div>
@@ -224,16 +224,16 @@ export default function FAQsPage() {
             {/* Get a Quote */}
             <div className="border border-slate-200 rounded-lg p-8 hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Ready to Get Insured?</h3>
-              <p className="text-slate-700 mb-6">Get a free quote from multiple insurers in just a few minutes.</p>
+              <p className="text-slate-700 mb-6">Get quotes from multiple insurers in just a few minutes.</p>
               <div className="space-y-3">
                 <p className="text-slate-700 text-sm">
-                  Our quote tool is free and easy to use. You'll receive quotes from ICNZ registered insurers without any obligation.
+                  Our quote tool is easy to use. You'll receive quotes from ICNZ registered insurers without any obligation.
                 </p>
                 <a
                   href="/#quote-form"
                   className="inline-block px-6 py-2 bg-gradient-to-r from-amber-500 to-orange-600 text-white font-semibold rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all text-center w-full"
                 >
-                  Get Free Quotes
+                  Get Quotes
                 </a>
               </div>
             </div>
@@ -245,7 +245,7 @@ export default function FAQsPage() {
       <CTABanner
         title="Ready to Protect Your Trailer?"
         description="Get quotes from NZ's top insurance providers in just 2 minutes."
-        buttonText="Get a Free Quote"
+        buttonText="Get a Quote"
         buttonLink="/#quote-form"
       />
     </>

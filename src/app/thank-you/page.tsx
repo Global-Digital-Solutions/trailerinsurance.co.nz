@@ -86,7 +86,7 @@ export default function ThankYouPage() {
 
             <div className="bg-green-50 border border-green-200 rounded-lg p-6">
               <MessageSquare className="w-8 h-8 text-green-600 mx-auto mb-3" />
-              <h3 className="font-bold text-slate-900 mb-2">Free Quotes</h3>
+              <h3 className="font-bold text-slate-900 mb-2">No Broker Fees</h3>
               <p className="text-sm text-slate-700">No broker fees. No hidden charges. Compare at no extra cost.</p>
             </div>
 

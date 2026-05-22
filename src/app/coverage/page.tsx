@@ -569,7 +569,7 @@ export default function CoveragePage() {
           <div className="lg:col-span-2">
             <h2 className="text-3xl font-bold text-slate-900 mb-6">Get Expert Help Choosing Coverage</h2>
             <p className="text-lg text-slate-700 mb-8">
-              Not sure which coverage level is right for you? Our insurance brokers can help you assess your needs and find the perfect policy. Get a free quote today and speak with an expert about your specific situation.
+              Not sure which coverage level is right for you? Our insurance brokers can help you assess your needs and find the perfect policy. Request a quote today and speak with an expert about your specific situation.
             </p>
             <div className="space-y-4 mb-8">
               <p className="text-slate-700 leading-relaxed">
@@ -586,8 +586,8 @@ export default function CoveragePage() {
       {/* CTA Banner */}
       <CTABanner
         title="Find the Right Coverage for Your Trailer"
-        description="Get free quotes and expert advice from ICNZ registered brokers."
-        buttonText="Get a Free Quote"
+        description="Get quotes and expert advice from ICNZ registered brokers."
+        buttonText="Get a Quote"
         buttonLink="/#quote-form"
       />
     </>
