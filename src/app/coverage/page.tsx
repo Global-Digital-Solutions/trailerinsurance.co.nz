@@ -89,7 +89,7 @@ export default function CoveragePage() {
       <section
         className="relative min-h-[70vh] flex flex-col justify-end px-4 sm:px-6 lg:px-8 pt-28 pb-32"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1765478423046-b66c352ff59a?w=1920&h=1080&fit=crop)',
+          backgroundImage: 'url(/hero-trailer-1.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

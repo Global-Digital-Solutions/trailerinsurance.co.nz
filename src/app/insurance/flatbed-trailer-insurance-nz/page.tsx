@@ -74,7 +74,7 @@ export default function FlatbedTrailerInsurancePage() {
         <section
           className="relative min-h-[80vh] flex items-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1756888218644-aeb9c044e1df?w=1920&h=1080&fit=crop)',
+            backgroundImage: 'url(/hero-trailer-2.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

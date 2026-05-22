@@ -108,7 +108,7 @@ export default function CompareTrailerInsurancePage() {
         <section
           className="relative min-h-[80vh] flex items-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop)',
+            backgroundImage: 'url(/hero-trailer-3.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

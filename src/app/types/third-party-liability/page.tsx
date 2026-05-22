@@ -85,7 +85,7 @@ export default function ThirdPartyLiabilityPage() {
         <section
           className="relative min-h-[80vh] flex items-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1749238651999-6fb194649b4f?w=1920&h=1080&fit=crop)',
+            backgroundImage: 'url(/hero-trailer-2.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

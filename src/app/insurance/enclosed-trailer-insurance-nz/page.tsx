@@ -74,7 +74,7 @@ export default function EnclosedTrailerInsurancePage() {
         <section
           className="relative min-h-[80vh] flex items-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1499147463149-adc471bbc639?w=1920&h=1080&fit=crop)',
+            backgroundImage: 'url(/hero-trailer-1.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

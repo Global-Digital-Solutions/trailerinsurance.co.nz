@@ -74,7 +74,7 @@ export default function BoxTrailerInsurancePage() {
         <section
           className="relative min-h-[80vh] flex items-center"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1586861203927-800a5acdcc4d?w=1920&h=1080&fit=crop)',
+            backgroundImage: 'url(/hero-trailer-1.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

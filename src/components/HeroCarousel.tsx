@@ -4,12 +4,16 @@ import { useState, useEffect, useCallback } from 'react';
 
 const heroImages = [
   {
-    url: 'https://images.unsplash.com/photo-1520101244246-293f77ffc39e?w=1920&h=1080&fit=crop',
-    alt: 'Black SUV towing a white trailer on an open road',
+    url: '/hero-trailer-1.jpg',
+    alt: 'White van towing an enclosed box trailer on a scenic New Zealand mountain road',
   },
   {
-    url: 'https://images.unsplash.com/photo-1749238651999-6fb194649b4f?w=1920&h=1080&fit=crop',
-    alt: 'Truck pulling a caravan trailer down a scenic country road',
+    url: '/hero-trailer-2.jpg',
+    alt: 'Silver SUV towing a flatbed utility trailer through the New Zealand Southern Alps',
+  },
+  {
+    url: '/hero-trailer-3.jpg',
+    alt: 'Ford Transit van towing a box trailer on a winding New Zealand alpine highway',
   },
 ];
 
