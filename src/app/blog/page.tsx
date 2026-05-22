@@ -93,7 +93,7 @@ export default function BlogPage() {
       <CTABanner
         title="Need Trailer Insurance Now?"
         description="Don't wait for the next article. Get quotes from NZ's top providers today."
-        buttonText="Get a Free Quote"
+        buttonText="Get a Quote"
         buttonLink="/#quote-form"
       />
     </>

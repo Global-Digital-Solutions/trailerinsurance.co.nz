@@ -95,7 +95,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
 
           <button type="submit"
             className="w-full bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-3 rounded-xl transition-all duration-200 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
-            Get My Free Quote →
+            Get My Quote →
           </button>
         </form>
 
@@ -121,7 +121,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
       <div className="w-full max-w-4xl mx-auto">
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-200">
           <div className="bg-gradient-to-r from-amber-500 to-orange-600 px-6 sm:px-10 py-8 sm:py-10">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-2">Get Your Free Quote</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-2">Get Your Quote</h2>
             <p className="text-amber-100 text-lg">Fill out the form below and a licensed broker will respond within 24 hours</p>
           </div>
 
@@ -186,7 +186,7 @@ export default function QuoteForm({ mode = 'full' }: QuoteFormProps) {
 
             <button type="submit"
               className="w-full bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-4 rounded-xl transition-all duration-300 text-lg shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
-              Get My Free Quote →
+              Get My Quote →
             </button>
           </form>
 

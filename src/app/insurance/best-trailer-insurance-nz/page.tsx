@@ -31,23 +31,16 @@ export default function BestTrailerInsurancePage() {
     {
       name: 'Tower Insurance',
       icon: TrendingUp,
-      pros: ['Easy online process', 'Competitive pricing', 'Straightforward policies', 'Good online tools'],
-      coverage: ['Third-party liability', 'Comprehensive cover', 'Optional add-ons'],
+      pros: ['$25M liability — highest in market', 'Optional contents cover ($5k)', 'Accessories cover up to $5k', 'Transparent pricing'],
+      coverage: ['Third-party liability ($25M)', 'Comprehensive cover', 'Optional contents & accessories'],
       rating: 4.4,
     },
     {
-      name: 'Mariner Insurance',
+      name: 'FMG Insurance',
       icon: Award,
-      pros: ['Marine specialists', 'Expert knowledge', 'Boat trailer experts', 'Personalised service'],
-      coverage: ['Boat trailers', 'Marine equipment', 'Specialist coverage'],
-      rating: 4.8,
-    },
-    {
-      name: 'Cove Insurance',
-      icon: Star,
-      pros: ['Digital-first approach', 'Transparent pricing', 'Simple claims', 'Mobile app available'],
-      coverage: ['Third-party liability', 'Comprehensive cover', 'Online management'],
-      rating: 4.3,
+      pros: ['Rural & equine specialist', 'Advisers who understand farming', 'Horse float experts', 'Personalised rural service'],
+      coverage: ['Farm & rural trailers', 'Horse floats', 'Caravans (rural use)'],
+      rating: 4.7,
     },
   ];
 
@@ -78,7 +71,7 @@ export default function BestTrailerInsurancePage() {
             '@context': 'https://schema.org',
             '@type': 'ComparisonTable',
             name: 'Best Trailer Insurance NZ',
-            description: 'Comprehensive comparison of New Zealand trailer insurance providers including AA, AMI, State, Tower, Mariner, and Cove',
+            description: 'Comprehensive comparison of New Zealand trailer insurance providers including AA Insurance, AMI, State Insurance, Tower, and FMG — verified May 2026',
             provider: {
               '@type': 'LocalBusiness',
               name: 'TrailerInsurance.co.nz',
@@ -120,7 +113,7 @@ export default function BestTrailerInsurancePage() {
               </p>
 
               <Link href="/#quote-form" className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-3.5 px-8 rounded-xl transition-all duration-300 inline-flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
-                Get Your Free Quote <span>→</span>
+                Get Your Quote <span>→</span>
               </Link>
             </div>
           </div>
@@ -141,52 +134,48 @@ export default function BestTrailerInsurancePage() {
 
               <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top Trailer Insurance Providers in NZ</h2>
 
-              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">AA Insurance</h3>
-              <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                AA Insurance is one of New Zealand's largest and most recognised insurance providers. They offer comprehensive trailer insurance with competitive rates and excellent customer service. AA provides flexible excess options, a wide network of repair providers, and responsive claims handling.
-              </p>
-              <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                Strengths: Competitive rates, flexible options, large repair network, good online tools. Best for: Customers seeking a reliable, well-known provider with good all-around service.
+              <p className="text-slate-600 text-sm mb-8 bg-blue-50 border border-blue-200 rounded-lg p-4">
+                <strong>Note (May 2026):</strong> All five providers below require phone contact to obtain a trailer or caravan insurance quote. No self-serve online quote tools currently exist for standalone trailer insurance in New Zealand.
               </p>
 
-              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">AMI Insurance</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">AA Insurance — Best Overall</h3>
               <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                AMI is particularly strong in the recreational vehicle insurance market, including caravans, camper trailers, and horse floats. They understand the unique needs of adventure travelers and outdoor enthusiasts. AMI offers multi-policy discounts and good agreed value options.
+                AA Insurance is New Zealand's Most Trusted Insurer for 16 consecutive years and offers a dedicated standalone trailer policy — not just a car insurance add-on. Agreed value cover with $20 million third-party liability. Strong nationwide network and responsive claims handling.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                Strengths: Specialist in recreational vehicles, multi-policy discounts, good customer service. Best for: Caravan owners, camper trailer users, and those wanting to bundle insurance policies.
+                <strong>Strengths:</strong> Brand trust, agreed value, $20M liability, nationwide repair network. <strong>Best for:</strong> Everyday box and utility trailers, customers who value peace of mind with a name they know. Phone: 0800 500 231.
               </p>
 
-              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">State Insurance</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">AMI Insurance — Best for Caravans</h3>
               <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                State Insurance is known for reliable customer service and 24/7 claims support. They provide competitive trailer insurance with a wide network of approved repairers. State is particularly strong for commercial and business trailer use.
+                AMI (IAG Group) offers two separate products: a dedicated Caravan Insurance policy that includes contents cover, and a separate Trailer Insurance policy. The caravan policy includes excess-free key replacement up to $1,000. $20 million third-party liability on both products.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                Strengths: 24/7 claims support, reliable service, wide repair network, flexible payment options. Best for: Customers prioritizing excellent customer service and peace of mind.
+                <strong>Strengths:</strong> Separate caravan policy, contents cover included, IAG Group financial strength. <strong>Best for:</strong> Caravan owners, camper trailer users, horse float owners with living quarters. Phone: 0800 100 200.
               </p>
 
-              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">Tower Insurance</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">State Insurance — Best for Bundling</h3>
               <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                Tower is known for straightforward policies, transparent pricing, and easy online management. They provide competitive rates for various trailer types and make the quote and policy process quick and simple. Their online tools are intuitive and user-friendly.
+                State Insurance (IAG Group) maintains separate policy documents for trailers (SI1058/8) and caravans (SI1057/9). Multi-policy bundling discounts are available for customers who already hold State home or car insurance. Wide repair network backed by IAG.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                Strengths: Easy online process, transparent pricing, straightforward policies, good online tools. Best for: Tech-savvy customers who prefer managing insurance online.
+                <strong>Strengths:</strong> Multi-policy discounts, IAG Group backing, dedicated policy wordings. <strong>Best for:</strong> Customers already with State for home or car insurance. Via State.co.nz.
               </p>
 
-              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">Mariner Insurance</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">Tower Insurance — Best Liability Limit</h3>
               <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                Mariner is the specialist choice for boat and marine-related insurance, including boat trailers and marine equipment. They deeply understand saltwater corrosion, marine environments, and the unique risks of boat ownership. If you have a boat trailer, Mariner should be on your comparison list.
+                Tower offers the highest third-party liability limit in the NZ market at $25 million — the most comprehensive financial protection available if your trailer causes a serious accident. Optional contents cover (up to $5,000) and accessories cover ($2,000–$5,000) are available add-ons. All quotes are arranged by phone.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                Strengths: Marine specialists, expert knowledge, specialised coverage, personalised service. Best for: Boat trailer owners and those wanting specialist marine expertise.
+                <strong>Strengths:</strong> $25M liability (highest in market), optional contents cover, accessories cover. <strong>Best for:</strong> Maximum liability protection, larger caravans with contents. Phone: 0800 379 372.
               </p>
 
-              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">Cove Insurance</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">FMG Insurance — Best for Rural &amp; Horse Floats</h3>
               <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                Cove is a digital-first insurance company with a focus on transparency and simplicity. They offer competitive pricing for trailer insurance with an easy mobile app and straightforward claims process. Good for customers wanting modern, tech-focused insurance.
+                FMG (Farmers' Mutual Group) is New Zealand's specialist rural insurer. Their Superior Private Vehicles policy covers horse floats, farm trailers, and caravans — with advisers who genuinely understand farming operations, rural roads, and equestrian use. If you&apos;re insuring a horse float worth $15,000 or more, FMG should be your first call.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                Strengths: Digital-first approach, transparent pricing, mobile app, simple claims process. Best for: Tech-savvy customers seeking competitive, modern insurance.
+                <strong>Strengths:</strong> Rural expertise, horse float specialists, personalised adviser service. <strong>Best for:</strong> Anyone in the primary sector — horse float owners, farmers, rural lifestyle block owners. Phone: 0800 366 466.
               </p>
 
               <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">What to Compare When Choosing Trailer Insurance</h2>
@@ -305,7 +294,7 @@ export default function BestTrailerInsurancePage() {
                   Use our comparison service to get quotes from multiple top NZ insurers instantly. See which provider offers the best value and coverage for your specific needs.
                 </p>
                 <p className="text-lg text-slate-700">
-                  It takes just a few minutes to get free quotes and start comparing coverage options side-by-side.
+                  It takes just a few minutes to get quotes and start comparing coverage options side-by-side.
                 </p>
               </div>
               <div>

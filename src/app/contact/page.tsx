@@ -2,7 +2,7 @@ import { Phone, Mail, Clock, Shield, CheckCircle, Zap, Lock, Users } from 'lucid
 import QuoteForm from '@/components/QuoteForm';
 
 export const metadata = {
-  title: 'Contact TrailerInsurance.co.nz | Get a Free Quote',
+  title: 'Contact TrailerInsurance.co.nz | Get a Quote',
   description: 'Contact our NZ trailer insurance brokers. Phone 09 885 9549, email hello@cover4you.co.nz, or fill out our quick quote form for a free comparison.',
 };
 
@@ -36,7 +36,7 @@ export default function ContactPage() {
             <div>
               <div className="inline-flex items-center gap-2 bg-amber-500/20 border border-amber-400/30 rounded-full px-4 py-1.5 mb-5">
                 <Zap className="w-4 h-4 text-amber-400" />
-                <span className="text-amber-300 text-sm font-semibold">Free quotes — no obligation</span>
+                <span className="text-amber-300 text-sm font-semibold">No obligation — no broker fees</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4 leading-tight">

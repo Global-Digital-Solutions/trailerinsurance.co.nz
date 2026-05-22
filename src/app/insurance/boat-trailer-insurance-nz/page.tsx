@@ -35,7 +35,7 @@ export default function BoatTrailerInsurancePage() {
     {
       icon: TrendingUp,
       title: 'Marine Specialist Providers',
-      description: 'Insurance from specialists like Mariner who understand boat trailers and marine-specific risks and requirements.',
+      description: 'Standalone boat trailer cover from AA, AMI, Tower, and State Insurance — protecting your trailer against marine-specific risks including corrosion, theft at boat ramps, and water damage.',
     },
   ];
 
@@ -99,7 +99,7 @@ export default function BoatTrailerInsurancePage() {
               </p>
 
               <Link href="/#quote-form" className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-3.5 px-8 rounded-xl transition-all duration-300 inline-flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
-                Get Your Free Quote <span>→</span>
+                Get Your Quote <span>→</span>
               </Link>
             </div>
           </div>
@@ -195,27 +195,51 @@ export default function BoatTrailerInsurancePage() {
                 Additionally, boat trailers may qualify for different discounts based on security measures (such as coupling locks), storage location, and usage patterns. When comparing quotes, make sure providers understand your specific boating activities and storage setup so they offer appropriate coverage.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top NZ Insurers for Boat Trailers</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-3 mt-12">Top NZ Insurers for Boat Trailers</h2>
+              <p className="text-slate-600 text-base mb-6">All four providers below require phone contact for a boat trailer quote. Note: your boat itself will require a separate marine or leisure craft policy — the providers below cover the trailer, not the boat.</p>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">Mariner Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  Mariner specialises in boat and marine insurance and deeply understands boat trailer risks. They offer comprehensive boat trailer cover with expertise that mainstream insurers may lack. Highly recommended for boat owners.
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">AA Insurance</h3>
+                  <span className="text-xs font-bold bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full">16× Most Trusted</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  AA Insurance's standalone trailer policy covers boat trailers on agreed value with $20 million third-party liability. As NZ's most trusted insurer, AA is a strong default choice for boat trailer owners who want reliability and nationwide repair access. Phone: 0800 500 231.
                 </p>
+                <p className="text-slate-500 text-sm">Best for: single-axle and tandem boat trailers, bundling with AA car or home insurance.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">AA Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  AA Insurance offers boat trailer policies with flexibility and competitive rates. They have a wide network of repairers and provide 24/7 claims support. Good option if you want to bundle boat and home insurance.
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">Tower Insurance</h3>
+                  <span className="text-xs font-bold bg-green-100 text-green-800 px-2.5 py-1 rounded-full">$25M Liability</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  Tower offers the highest third-party liability at $25 million and includes natural disaster cover. Optional accessories cover ($2,000–$5,000) is useful for boat trailer winches, rollers, and launch equipment. Phone: 0800 379 372.
                 </p>
+                <p className="text-slate-500 text-sm">Best for: higher-value boat trailers or where maximum liability protection matters.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">State Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  State provides competitive boat trailer insurance with reliable claims support. They understand marine environments and provide appropriate coverage for coastal and inland storage.
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">AMI Insurance</h3>
+                  <span className="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded-full">IAG Group</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  AMI (IAG Group) provides a standalone trailer insurance policy with $20 million liability. If you store significant equipment on your boat trailer (winch gear, outboard holders, etc.) it's worth asking about their contents cover options. Phone: 0800 100 200.
                 </p>
+                <p className="text-slate-500 text-sm">Best for: bundling with existing AMI home or car policy.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">State Insurance</h3>
+                  <span className="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded-full">IAG Group</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  State Insurance (IAG Group) maintains a dedicated trailer policy document (SI1058/8) with IAG's financial strength behind it. Multi-policy discounts are available for State home or car customers adding trailer cover. Via State.co.nz.
+                </p>
+                <p className="text-slate-500 text-sm">Best for: existing State Insurance customers looking to bundle.</p>
               </div>
 
               <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Boat Ramp Safety Tips and Insurance Considerations</h2>
@@ -309,10 +333,10 @@ export default function BoatTrailerInsurancePage() {
               <div className="lg:col-span-2">
                 <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">Protect Your Boat Trailer Investment</h2>
                 <p className="text-lg text-slate-700 mb-6">
-                  Don't leave your valuable boat trailer exposed to corrosion, theft, and damage. Get a free quote for specialist boat trailer insurance today and enjoy peace of mind knowing your investment is protected.
+                  Don't leave your valuable boat trailer exposed to corrosion, theft, and damage. Get a quote for specialist boat trailer insurance today and enjoy peace of mind knowing your investment is protected.
                 </p>
                 <p className="text-lg text-slate-700">
-                  We compare quotes from New Zealand's best boat and marine insurers, including Mariner Insurance specialists and mainstream providers.
+                  We work with NZ's leading trailer insurers — AA, AMI, State, Tower, and FMG — to find the best cover for your boat trailer. One form, multiple quotes.
                 </p>
               </div>
               <div>

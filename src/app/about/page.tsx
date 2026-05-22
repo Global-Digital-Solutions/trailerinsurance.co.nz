@@ -233,7 +233,7 @@ export default function AboutPage() {
       <CTABanner
         title="Ready to Protect Your Trailer?"
         description="Get personalised quotes from NZ's top providers in just 2 minutes."
-        buttonText="Get a Free Quote"
+        buttonText="Get a Quote"
         buttonLink="/#quote-form"
       />
     </>

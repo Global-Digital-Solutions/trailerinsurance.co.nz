@@ -267,47 +267,63 @@ export default function ComprehensivePage() {
         {/* NZ Insurers Comparison */}
         <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-8">Top Insurers for Comprehensive Trailer Cover</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-3">Top NZ Insurers for Comprehensive Trailer Cover</h2>
+            <p className="text-slate-600 mb-8">All five providers below offer dedicated standalone comprehensive trailer or caravan policies — not just add-ons to car insurance. All require phone contact to obtain a quote.</p>
 
             <div className="space-y-6">
               <div className="bg-white p-8 rounded-2xl border border-slate-200">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">AA Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  AA Insurance offers comprehensive trailer cover with flexible excess options and optional add-ons for contents protection. They provide excellent customer service and have a nationwide network of repairers.
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">AA Insurance</h3>
+                  <span className="text-xs font-bold bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full">16× Most Trusted</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  AA Insurance's dedicated standalone trailer policy covers your trailer on agreed value with $20 million third-party liability. Named NZ's Most Trusted Insurer for 16 consecutive years. Phone: 0800 500 231.
                 </p>
-                <p className="text-slate-600 text-sm">Known for competitive rates and responsive claims handling.</p>
+                <p className="text-slate-500 text-sm">Best for: everyday utility and box trailers where brand trust matters.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">AMI Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  AMI provides comprehensive caravan and trailer policies with discounts for multiple policies and good driver records. They offer both new for old and agreed value options.
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">AMI Insurance</h3>
+                  <span className="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded-full">IAG Group</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  AMI offers two separate products: a dedicated Caravan Insurance policy (includes contents cover) and a separate Trailer Insurance policy. $20 million third-party liability, excess-free key replacement up to $1,000. Phone: 0800 100 200.
                 </p>
-                <p className="text-slate-600 text-sm">Popular for bundled insurance packages.</p>
+                <p className="text-slate-500 text-sm">Best for: caravans with contents, or where separate policy wordings matter.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">State Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  State Insurance offers comprehensive trailer cover with 24/7 claims support and a large repair network. They provide competitive rates and flexible payment options.
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">State Insurance</h3>
+                  <span className="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded-full">IAG Group</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  State Insurance maintains dedicated policy documents for trailers (SI1058/8) and caravans (SI1057/9). Part of the IAG Group with strong financial backing. Bundling discounts available if you already hold State home or car cover.
                 </p>
-                <p className="text-slate-600 text-sm">Excellent claims support and quick settlement.</p>
+                <p className="text-slate-500 text-sm">Best for: multi-policy bundling with existing State Insurance customers.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">Tower Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  Tower provides comprehensive trailer insurance with online quotes and policies. They offer straightforward cover and competitive pricing for various trailer types.
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">Tower Insurance</h3>
+                  <span className="text-xs font-bold bg-green-100 text-green-800 px-2.5 py-1 rounded-full">Highest Liability: $25M</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  Tower offers the highest third-party liability limit in this comparison at $25 million. Covers collision, fire, theft, and natural disaster. Optional contents cover (up to $5,000) and accessories ($2,000–$5,000) available. All quotes are phone-based — 0800 379 372.
                 </p>
-                <p className="text-slate-600 text-sm">Easy online process with flexible policies.</p>
+                <p className="text-slate-500 text-sm">Best for: maximum liability protection or where optional contents cover is needed.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">Mariner Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  Mariner specialises in boat and marine-related insurance, making them excellent for boat trailers and yacht tow vehicles. They understand unique maritime insurance needs.
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">FMG Insurance</h3>
+                  <span className="text-xs font-bold bg-orange-100 text-orange-800 px-2.5 py-1 rounded-full">Rural Specialist</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  FMG (Farmers' Mutual Group) covers trailers, horse floats, and caravans under their Superior Private Vehicles policy — designed specifically for rural New Zealand. FMG advisers understand farm operations, rural roads, and livestock transport requirements that mainstream city-focused insurers may not. Phone: 0800 366 466.
                 </p>
-                <p className="text-slate-600 text-sm">Specialists in marine insurance with expert knowledge.</p>
+                <p className="text-slate-500 text-sm">Best for: horse floats, farm trailers, rural use, and anyone in the primary sector.</p>
               </div>
             </div>
           </div>

@@ -99,7 +99,7 @@ export default function CaravanInsurancePage() {
               </p>
 
               <Link href="/#quote-form" className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-3.5 px-8 rounded-xl transition-all duration-300 inline-flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
-                Get Your Free Quote <span>→</span>
+                Get Your Quote <span>→</span>
               </Link>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function CaravanInsurancePage() {
               </p>
 
               <p className="text-lg text-slate-700 leading-relaxed mb-8">
-                New Zealand's top insurers—AA Insurance, AMI, State Insurance, Tower, and Mariner—all offer specialised caravan policies with flexibility to match your needs. The right policy protects not just the caravan structure but also the electrical systems, appliances, and contents that make your travels comfortable.
+                New Zealand's top insurers — AA Insurance, AMI Insurance, State Insurance, Tower, and FMG — all offer specialised standalone caravan policies with flexibility to match your needs. The right policy protects not just the caravan structure but also the electrical systems, appliances, and contents that make your travels comfortable. Importantly, all NZ caravan insurers require phone contact to obtain a quote — no self-serve online quote tools exist for caravans in NZ.
               </p>
 
               <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">What Caravan Insurance Covers in NZ</h2>
@@ -181,34 +181,51 @@ export default function CaravanInsurancePage() {
                 To qualify for comprehensive caravan insurance, you'll typically need to take basic security precautions. This includes using approved wheel clamps, securing the coupling, parking in safe locations when possible, and having the caravan inspected regularly. Some insurers offer discounts for additional security measures like GPS trackers or alarm systems.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top NZ Insurers for Caravan Cover</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-3 mt-12">Top NZ Insurers for Caravan Cover</h2>
+              <p className="text-slate-600 text-base mb-6">All providers below offer dedicated standalone caravan policies — not just trailer or car add-ons. All require phone contact for a quote.</p>
 
-              <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">AA Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  AA Insurance is a leading provider of caravan insurance in New Zealand with comprehensive policies tailored to different caravan types. They offer flexible excess options, optional zero excess cover, and excellent roadside assistance. Their online quote system is quick and transparent.
+              <div className="bg-amber-50 p-8 rounded-2xl border-2 border-amber-300 mb-6">
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-700">AMI Insurance</h3>
+                  <span className="text-xs font-bold bg-amber-500 text-white px-2.5 py-1 rounded-full">Top Pick for Caravans</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  AMI (IAG Group) is the standout choice for caravan owners in NZ. They offer a dedicated, separate Caravan Insurance policy with contents cover included as standard — furniture, appliances, and personal belongings inside your caravan. Excess-free key replacement up to $1,000. $20 million third-party liability. Phone: 0800 100 200.
                 </p>
+                <p className="text-slate-500 text-sm font-medium">Best for: caravans with contents, appliances, and personal belongings inside.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">AMI Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  AMI specialises in caravan and recreational vehicle insurance with policies designed for Kiwi holiday-makers. They offer multi-policy discounts, agreed value options, and 24/7 claims support. AMI is particularly popular for bundling home and caravan insurance.
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">AA Insurance</h3>
+                  <span className="text-xs font-bold bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full">16× Most Trusted</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  AA Insurance offers a dedicated standalone caravan policy with agreed value and $20 million third-party liability. NZ's Most Trusted Insurer for 16 years running. Flexible excess options and strong nationwide repair network. All quotes via phone or broker: 0800 500 231.
                 </p>
+                <p className="text-slate-500 text-sm">Best for: brand trust, agreed value cover, nationwide claim support.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">State Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  State Insurance offers competitive caravan policies with strong claims support and a network of approved repairers. They provide both comprehensive and third-party cover and have flexible payment plans to suit your budget.
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">Tower Insurance</h3>
+                  <span className="text-xs font-bold bg-green-100 text-green-800 px-2.5 py-1 rounded-full">$25M Liability</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  Tower offers the highest third-party liability at $25 million — highest in the NZ market. Optional contents cover (up to $5,000) and accessories cover ($2,000–$5,000) are available add-ons. Comprehensive cover includes natural disaster, fire, theft, and collision. Phone: 0800 379 372.
                 </p>
+                <p className="text-slate-500 text-sm">Best for: maximum liability, optional contents cover on a caravan with valuables.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">Tower Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  Tower provides straightforward caravan insurance with easy online quotes and policies. They offer comprehensive coverage, optional contents protection, and responsive claims handling.
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">State Insurance</h3>
+                  <span className="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded-full">IAG Group</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  State Insurance (IAG Group) has a dedicated Caravan Insurance policy document (SI1057/9) separate from their trailer policy. Multi-policy bundling discounts available for customers with existing State home or car cover. Via State.co.nz.
                 </p>
+                <p className="text-slate-500 text-sm">Best for: bundling with existing State Insurance policies.</p>
               </div>
 
               <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Tips for Getting the Best Caravan Insurance Deal</h2>
@@ -319,7 +336,7 @@ export default function CaravanInsurancePage() {
               <div className="lg:col-span-2">
                 <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">Ready to Protect Your Caravan?</h2>
                 <p className="text-lg text-slate-700 mb-6">
-                  Don't leave your caravan uninsured. Get a free quote today and discover how affordable comprehensive caravan insurance can be. Our process is simple, fast, and transparent—no hidden fees or surprise costs.
+                  Don't leave your caravan uninsured. Get a quote today and discover how affordable comprehensive caravan insurance can be. Our process is simple, fast, and transparent—no hidden fees or surprise costs.
                 </p>
                 <p className="text-lg text-slate-700">
                   We compare policies from New Zealand's top insurers, so you can easily see which offers the best value and coverage for your needs.

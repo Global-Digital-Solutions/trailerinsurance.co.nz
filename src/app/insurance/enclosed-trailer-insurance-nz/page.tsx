@@ -99,7 +99,7 @@ export default function EnclosedTrailerInsurancePage() {
               </p>
 
               <Link href="/#quote-form" className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-3.5 px-8 rounded-xl transition-all duration-300 inline-flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
-                Get Your Free Quote <span>→</span>
+                Get Your Quote <span>→</span>
               </Link>
             </div>
           </div>
@@ -326,7 +326,7 @@ export default function EnclosedTrailerInsurancePage() {
                   Don't leave your valuable equipment and tools at risk. Get comprehensive enclosed trailer insurance that covers both the trailer and your contents.
                 </p>
                 <p className="text-lg text-slate-700">
-                  Get a free quote today and compare coverage from New Zealand's leading insurers specialising in cargo and equipment transport.
+                  Get a quote today and compare coverage from New Zealand's leading insurers specialising in cargo and equipment transport.
                 </p>
               </div>
               <div>

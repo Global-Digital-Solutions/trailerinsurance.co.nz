@@ -99,7 +99,7 @@ export default function HorseFloatInsurancePage() {
               </p>
 
               <Link href="/#quote-form" className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-3.5 px-8 rounded-xl transition-all duration-300 inline-flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
-                Get Your Free Quote <span>→</span>
+                Get Your Quote <span>→</span>
               </Link>
             </div>
           </div>
@@ -181,27 +181,51 @@ export default function HorseFloatInsurancePage() {
                 Keep your float well-maintained. Insurers may deny claims if they determine that poor maintenance contributed to damage. This includes regular brake maintenance, electrical checks, and structural inspections.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top NZ Insurers for Horse Float Cover</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-3 mt-12">Top NZ Insurers for Horse Float Cover</h2>
+              <p className="text-slate-600 text-base mb-6">All four providers below require phone contact to obtain a horse float insurance quote — no online quote tools exist for this product in NZ.</p>
 
-              <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">AA Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  AA Insurance offers horse float policies with competitive rates and flexible excess options. They have good claims support and a nationwide network. Their online tools make getting quotes straightforward.
+              <div className="bg-amber-50 p-8 rounded-2xl border-2 border-amber-300 mb-6">
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-700">FMG Insurance</h3>
+                  <span className="text-xs font-bold bg-orange-500 text-white px-2.5 py-1 rounded-full">Top Pick for Horse Floats</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  FMG (Farmers&apos; Mutual Group) is the specialist choice for horse float owners in New Zealand. Their Superior Private Vehicles policy is designed for rural and equestrian use — advisers understand horse float construction, equestrian events, and rural road risks that city-based insurers often overlook. If your horse float is worth $20,000 or more, talking to FMG first is strongly recommended. Phone: 0800 366 466.
                 </p>
+                <p className="text-slate-500 text-sm font-medium">Best for: horse float owners, rural properties, equestrian event travel.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">AMI Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  AMI provides equine-friendly insurance with policies designed for horse owners and equestrian activities. They understand equestrian communities and offer discounts for equine club members.
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">AA Insurance</h3>
+                  <span className="text-xs font-bold bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full">16× Most Trusted</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  AA Insurance offers a dedicated standalone trailer/horse float policy with agreed value and $20 million third-party liability. Named NZ&apos;s Most Trusted Insurer for 16 consecutive years. Quotes are arranged by phone through their broker network — 0800 500 231.
                 </p>
+                <p className="text-slate-500 text-sm">Best for: well-maintained horse floats where agreed value and brand trust are priorities.</p>
               </div>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
-                <h3 className="text-2xl font-bold text-amber-600 mb-3">State Insurance</h3>
-                <p className="text-slate-700 mb-4">
-                  State offers competitive horse float insurance with reliable claims handling and a good network of equine-experienced assessors who understand float construction and repair.
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">AMI Insurance</h3>
+                  <span className="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded-full">IAG Group</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  AMI provides separate caravan and trailer policies through the IAG Group. Their caravan policy includes contents cover — useful if your horse float has living quarters or an attached tack/gear area. $20 million third-party liability, excess-free key replacement up to $1,000. Phone: 0800 100 200.
                 </p>
+                <p className="text-slate-500 text-sm">Best for: horse floats with living quarters or significant tack/gear storage.</p>
+              </div>
+
+              <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
+                <div className="flex items-center gap-3 mb-3">
+                  <h3 className="text-2xl font-bold text-amber-600">Tower Insurance</h3>
+                  <span className="text-xs font-bold bg-green-100 text-green-800 px-2.5 py-1 rounded-full">$25M Liability</span>
+                </div>
+                <p className="text-slate-700 mb-3">
+                  Tower offers the highest third-party liability in this comparison at $25 million — relevant if your horse float is large or towed on busy roads where an accident could involve multiple vehicles. Optional accessories cover ($2,000–$5,000) is useful for tack, saddles, and float equipment. Phone: 0800 379 372.
+                </p>
+                <p className="text-slate-500 text-sm">Best for: maximum liability cover on larger or heavier horse floats.</p>
               </div>
 
               <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Horse Float Insurance Tips</h2>
@@ -285,7 +309,7 @@ export default function HorseFloatInsurancePage() {
                   Don't leave your horse float at risk. Get comprehensive insurance that's designed with equestrian transport in mind. Our comparison service connects you with New Zealand's best insurers.
                 </p>
                 <p className="text-lg text-slate-700">
-                  Get a free quote today and compare coverage options from multiple providers tailored for horse float owners.
+                  Get a quote today and compare coverage options from multiple providers tailored for horse float owners.
                 </p>
               </div>
               <div>

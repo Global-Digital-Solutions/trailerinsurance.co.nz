@@ -188,8 +188,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       {/* CTA Banner */}
       <CTABanner
         title="Ready to Get Your Trailer Insured?"
-        description="Get free quotes from NZ's top providers and find the right coverage for your needs."
-        buttonText="Get a Free Quote"
+        description="Get quotes from NZ's top providers and find the right coverage for your needs."
+        buttonText="Get a Quote"
         buttonLink="/#quote-form"
       />
     </>

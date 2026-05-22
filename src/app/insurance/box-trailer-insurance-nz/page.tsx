@@ -99,7 +99,7 @@ export default function BoxTrailerInsurancePage() {
               </p>
 
               <Link href="/#quote-form" className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-3.5 px-8 rounded-xl transition-all duration-300 inline-flex items-center justify-center gap-2 shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5">
-                Get Your Free Quote <span>→</span>
+                Get Your Quote <span>→</span>
               </Link>
             </div>
           </div>
@@ -336,7 +336,7 @@ export default function BoxTrailerInsurancePage() {
                   Don't risk your valuable box trailer and equipment. Get comprehensive insurance that covers your trailer against damage, theft, and accidents.
                 </p>
                 <p className="text-lg text-slate-700">
-                  Get a free quote today and compare coverage from New Zealand's leading insurers. Find the perfect policy for your needs and budget.
+                  Get a quote today and compare coverage from New Zealand's leading insurers. Find the perfect policy for your needs and budget.
                 </p>
               </div>
               <div>
