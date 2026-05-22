@@ -3,7 +3,7 @@ import QuoteForm from '@/components/QuoteForm';
 
 export const metadata = {
   title: 'Contact TrailerInsurance.co.nz | Get a Quote',
-  description: 'Contact our NZ trailer insurance brokers. Phone 09 885 9549, email hello@cover4you.co.nz, or fill out our quick quote form for a free comparison.',
+  description: 'Contact our NZ trailer insurance brokers. Phone hello@cover4you.co.nz, email hello@cover4you.co.nz, or fill out our quick quote form for a free comparison.',
 };
 
 const usps = [
@@ -52,13 +52,7 @@ export default function ContactPage() {
 
               {/* Contact strip */}
               <div className="flex flex-wrap gap-4 mb-8">
-                <a href="tel:098859549" className="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg px-4 py-2.5 transition-colors">
-                  <Phone className="w-4 h-4 text-amber-400 flex-shrink-0" />
-                  <div>
-                    <div className="text-white font-bold text-sm">09 885 9549</div>
-                    <div className="text-slate-400 text-xs">Mon–Fri, 8am–6pm</div>
-                  </div>
-                </a>
+                hello@cover4you.co.nz
                 <a href="mailto:hello@cover4you.co.nz" className="flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg px-4 py-2.5 transition-colors">
                   <Mail className="w-4 h-4 text-amber-400 flex-shrink-0" />
                   <div>
@@ -104,7 +98,7 @@ export default function ContactPage() {
                 <Phone className="w-6 h-6 text-white" />
               </div>
               <h3 className="font-semibold text-slate-900 mb-1">Phone</h3>
-              <a href="tel:098859549" className="text-amber-600 hover:text-amber-700 font-bold block mb-1">09 885 9549</a>
+              hello@cover4you.co.nz
               <p className="text-sm text-slate-600">Mon–Fri, 8am–6pm NZST</p>
             </div>
             <div className="text-center p-6 rounded-2xl bg-slate-50 border border-slate-100">

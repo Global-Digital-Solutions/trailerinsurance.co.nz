@@ -267,7 +267,7 @@ export default function ComprehensivePage() {
         {/* NZ Insurers Comparison */}
         <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-3">Top NZ Insurers for Comprehensive Trailer Cover</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-3">Top Insurers for Comprehensive Trailer Cover</h2>
             <p className="text-slate-600 mb-8">All five providers below offer dedicated standalone comprehensive trailer or caravan policies — not just add-ons to car insurance. All require phone contact to obtain a quote.</p>
 
             <div className="space-y-6">
@@ -277,7 +277,7 @@ export default function ComprehensivePage() {
                   <span className="text-xs font-bold bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full">16× Most Trusted</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  AA Insurance's dedicated standalone trailer policy covers your trailer on agreed value with $20 million third-party liability. Named NZ's Most Trusted Insurer for 16 consecutive years. Phone: 0800 500 231.
+                  AA Insurance's dedicated standalone trailer policy covers your trailer on agreed value with $20 million third-party liability. Named NZ's Most Trusted Insurer for 16 consecutive years.
                 </p>
                 <p className="text-slate-500 text-sm">Best for: everyday utility and box trailers where brand trust matters.</p>
               </div>
@@ -288,7 +288,7 @@ export default function ComprehensivePage() {
                   <span className="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded-full">IAG Group</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  AMI offers two separate products: a dedicated Caravan Insurance policy (includes contents cover) and a separate Trailer Insurance policy. $20 million third-party liability, excess-free key replacement up to $1,000. Phone: 0800 100 200.
+                  AMI offers two separate products: a dedicated Caravan Insurance policy (includes contents cover) and a separate Trailer Insurance policy. $20 million third-party liability, excess-free key replacement up to $1,000.
                 </p>
                 <p className="text-slate-500 text-sm">Best for: caravans with contents, or where separate policy wordings matter.</p>
               </div>
@@ -310,7 +310,7 @@ export default function ComprehensivePage() {
                   <span className="text-xs font-bold bg-green-100 text-green-800 px-2.5 py-1 rounded-full">Highest Liability: $25M</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  Tower offers the highest third-party liability limit in this comparison at $25 million. Covers collision, fire, theft, and natural disaster. Optional contents cover (up to $5,000) and accessories ($2,000–$5,000) available. All quotes are phone-based — 0800 379 372.
+                  Tower offers the highest third-party liability limit in this comparison at $25 million. Covers collision, fire, theft, and natural disaster. Optional contents cover (up to $5,000) and accessories ($2,000–$5,000) available. All quotes are phone-based .
                 </p>
                 <p className="text-slate-500 text-sm">Best for: maximum liability protection or where optional contents cover is needed.</p>
               </div>
@@ -321,7 +321,7 @@ export default function ComprehensivePage() {
                   <span className="text-xs font-bold bg-orange-100 text-orange-800 px-2.5 py-1 rounded-full">Rural Specialist</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  FMG (Farmers' Mutual Group) covers trailers, horse floats, and caravans under their Superior Private Vehicles policy — designed specifically for rural New Zealand. FMG advisers understand farm operations, rural roads, and livestock transport requirements that mainstream city-focused insurers may not. Phone: 0800 366 466.
+                  FMG (Farmers' Mutual Group) covers trailers, horse floats, and caravans under their Superior Private Vehicles policy — designed specifically for rural New Zealand. FMG advisers understand farm operations, rural roads, and livestock transport requirements that mainstream city-focused insurers may not.
                 </p>
                 <p className="text-slate-500 text-sm">Best for: horse floats, farm trailers, rural use, and anyone in the primary sector.</p>
               </div>

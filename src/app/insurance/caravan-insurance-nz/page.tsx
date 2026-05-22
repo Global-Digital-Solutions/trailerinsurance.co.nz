@@ -122,7 +122,7 @@ export default function CaravanInsurancePage() {
                 New Zealand's top insurers — AA Insurance, AMI Insurance, State Insurance, Tower, and FMG — all offer specialised standalone caravan policies with flexibility to match your needs. The right policy protects not just the caravan structure but also the electrical systems, appliances, and contents that make your travels comfortable. Importantly, all NZ caravan insurers require phone contact to obtain a quote — no self-serve online quote tools exist for caravans in NZ.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">What Caravan Insurance Covers in NZ</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">What Caravan Insurance Covers</h2>
 
               <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">The Caravan Structure and Chassis</h3>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
@@ -181,7 +181,7 @@ export default function CaravanInsurancePage() {
                 To qualify for comprehensive caravan insurance, you'll typically need to take basic security precautions. This includes using approved wheel clamps, securing the coupling, parking in safe locations when possible, and having the caravan inspected regularly. Some insurers offer discounts for additional security measures like GPS trackers or alarm systems.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-3 mt-12">Top NZ Insurers for Caravan Cover</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-3 mt-12">Top Insurers for Caravan Cover</h2>
               <p className="text-slate-600 text-base mb-6">All providers below offer dedicated standalone caravan policies — not just trailer or car add-ons. All require phone contact for a quote.</p>
 
               <div className="bg-amber-50 p-8 rounded-2xl border-2 border-amber-300 mb-6">
@@ -190,7 +190,7 @@ export default function CaravanInsurancePage() {
                   <span className="text-xs font-bold bg-amber-500 text-white px-2.5 py-1 rounded-full">Top Pick for Caravans</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  AMI (IAG Group) is the standout choice for caravan owners in NZ. They offer a dedicated, separate Caravan Insurance policy with contents cover included as standard — furniture, appliances, and personal belongings inside your caravan. Excess-free key replacement up to $1,000. $20 million third-party liability. Phone: 0800 100 200.
+                  AMI (IAG Group) is the standout choice for caravan owners in NZ. They offer a dedicated, separate Caravan Insurance policy with contents cover included as standard — furniture, appliances, and personal belongings inside your caravan. Excess-free key replacement up to $1,000. $20 million third-party liability.
                 </p>
                 <p className="text-slate-500 text-sm font-medium">Best for: caravans with contents, appliances, and personal belongings inside.</p>
               </div>
@@ -201,7 +201,7 @@ export default function CaravanInsurancePage() {
                   <span className="text-xs font-bold bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full">16× Most Trusted</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  AA Insurance offers a dedicated standalone caravan policy with agreed value and $20 million third-party liability. NZ's Most Trusted Insurer for 16 years running. Flexible excess options and strong nationwide repair network. All quotes via phone or broker: 0800 500 231.
+                  AA Insurance offers a dedicated standalone caravan policy with agreed value and $20 million third-party liability. NZ's Most Trusted Insurer for 16 years running. Flexible excess options and strong nationwide repair network. All quotes via their broker network.
                 </p>
                 <p className="text-slate-500 text-sm">Best for: brand trust, agreed value cover, nationwide claim support.</p>
               </div>
@@ -212,7 +212,7 @@ export default function CaravanInsurancePage() {
                   <span className="text-xs font-bold bg-green-100 text-green-800 px-2.5 py-1 rounded-full">$25M Liability</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  Tower offers the highest third-party liability at $25 million — highest in the NZ market. Optional contents cover (up to $5,000) and accessories cover ($2,000–$5,000) are available add-ons. Comprehensive cover includes natural disaster, fire, theft, and collision. Phone: 0800 379 372.
+                  Tower offers the highest third-party liability at $25 million — highest in the NZ market. Optional contents cover (up to $5,000) and accessories cover ($2,000–$5,000) are available add-ons. Comprehensive cover includes natural disaster, fire, theft, and collision.
                 </p>
                 <p className="text-slate-500 text-sm">Best for: maximum liability, optional contents cover on a caravan with valuables.</p>
               </div>

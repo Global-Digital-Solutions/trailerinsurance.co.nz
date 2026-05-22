@@ -195,7 +195,7 @@ export default function BoatTrailerInsurancePage() {
                 Additionally, boat trailers may qualify for different discounts based on security measures (such as coupling locks), storage location, and usage patterns. When comparing quotes, make sure providers understand your specific boating activities and storage setup so they offer appropriate coverage.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-3 mt-12">Top NZ Insurers for Boat Trailers</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-3 mt-12">Top Insurers for Boat Trailers</h2>
               <p className="text-slate-600 text-base mb-6">All four providers below require phone contact for a boat trailer quote. Note: your boat itself will require a separate marine or leisure craft policy — the providers below cover the trailer, not the boat.</p>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
@@ -204,7 +204,7 @@ export default function BoatTrailerInsurancePage() {
                   <span className="text-xs font-bold bg-amber-100 text-amber-800 px-2.5 py-1 rounded-full">16× Most Trusted</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  AA Insurance's standalone trailer policy covers boat trailers on agreed value with $20 million third-party liability. As NZ's most trusted insurer, AA is a strong default choice for boat trailer owners who want reliability and nationwide repair access. Phone: 0800 500 231.
+                  AA Insurance's standalone trailer policy covers boat trailers on agreed value with $20 million third-party liability. As NZ's most trusted insurer, AA is a strong default choice for boat trailer owners who want reliability and nationwide repair access.
                 </p>
                 <p className="text-slate-500 text-sm">Best for: single-axle and tandem boat trailers, bundling with AA car or home insurance.</p>
               </div>
@@ -215,7 +215,7 @@ export default function BoatTrailerInsurancePage() {
                   <span className="text-xs font-bold bg-green-100 text-green-800 px-2.5 py-1 rounded-full">$25M Liability</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  Tower offers the highest third-party liability at $25 million and includes natural disaster cover. Optional accessories cover ($2,000–$5,000) is useful for boat trailer winches, rollers, and launch equipment. Phone: 0800 379 372.
+                  Tower offers the highest third-party liability at $25 million and includes natural disaster cover. Optional accessories cover ($2,000–$5,000) is useful for boat trailer winches, rollers, and launch equipment.
                 </p>
                 <p className="text-slate-500 text-sm">Best for: higher-value boat trailers or where maximum liability protection matters.</p>
               </div>
@@ -226,7 +226,7 @@ export default function BoatTrailerInsurancePage() {
                   <span className="text-xs font-bold bg-blue-100 text-blue-800 px-2.5 py-1 rounded-full">IAG Group</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  AMI (IAG Group) provides a standalone trailer insurance policy with $20 million liability. If you store significant equipment on your boat trailer (winch gear, outboard holders, etc.) it's worth asking about their contents cover options. Phone: 0800 100 200.
+                  AMI (IAG Group) provides a standalone trailer insurance policy with $20 million liability. If you store significant equipment on your boat trailer (winch gear, outboard holders, etc.) it's worth asking about their contents cover options.
                 </p>
                 <p className="text-slate-500 text-sm">Best for: bundling with existing AMI home or car policy.</p>
               </div>

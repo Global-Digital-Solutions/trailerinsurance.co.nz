@@ -172,8 +172,7 @@ export default function DisclaimerPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2 text-slate-700">
                 <li><strong>Email:</strong> hello@cover4you.co.nz</li>
-                <li><strong>Phone:</strong> 09 885 9549</li>
-                <li><strong>Hours:</strong> Monday-Friday, 8am-6pm NZST</li>
+                                <li><strong>Hours:</strong> Monday-Friday, 8am-6pm NZST</li>
               </ul>
             </div>
           </div>

@@ -14,7 +14,6 @@ const providers = [
       'AA Insurance offers a dedicated standalone trailer policy — not just an add-on to your car insurance. Known as New Zealand\'s most trusted insurer for 16 consecutive years, AA covers trailers on agreed value with full third-party liability up to $20 million. Quotes are arranged by phone through their broker network.',
     type: 'Standalone Trailer Policy',
     liabilityLimit: '$20 million',
-    phone: '0800 500 231',
     bestFor: 'Everyday utility & box trailers',
     features: {
       comprehensive: true,
@@ -35,7 +34,6 @@ const providers = [
       'AMI (part of the IAG Group) provides two separate products: a dedicated Caravan Insurance policy and a separate Trailer Insurance policy. The caravan policy includes contents cover for belongings inside — the trailer policy covers the trailer itself. Both include $20 million third-party liability and excess-free key replacement up to $1,000.',
     type: 'Separate Caravan + Trailer Policies',
     liabilityLimit: '$20 million',
-    phone: '0800 100 200',
     bestFor: 'Caravans & horse floats with contents',
     features: {
       comprehensive: true,
@@ -56,7 +54,6 @@ const providers = [
       'State Insurance (also IAG Group) maintains separate policy wordings for trailers (document SI1058/8) and caravans (SI1057/9). As an IAG member, State Insurance shares the group\'s financial strength and claims infrastructure. State is strong on bundling discounts if you already hold home or car insurance with them.',
     type: 'Standalone Trailer & Caravan Cover',
     liabilityLimit: 'IAG standard rates',
-    phone: 'Via State.co.nz',
     bestFor: 'Bundling with existing State home or car policy',
     features: {
       comprehensive: true,
@@ -74,10 +71,9 @@ const providers = [
     badge: 'Highest Liability',
     badgeColor: 'bg-green-100 text-green-800',
     description:
-      'Tower offers the highest third-party liability limit in this comparison at $25 million. Their trailer/caravan policy covers collision, fire, theft, and natural disaster events. Optional contents cover up to $5,000 is available, plus accessories cover ($2,000–$5,000). All quotes are phone-based — Tower does not offer online trailer quote tools.',
+      'Tower offers the highest third-party liability limit in this comparison at $25 million. Their trailer/caravan policy covers collision, fire, theft, and natural disaster events. Optional contents cover up to $5,000 is available, plus accessories cover ($2,000–$5,000). All quotes are phone-based.',
     type: 'Caravan & Trailer Insurance',
     liabilityLimit: '$25 million',
-    phone: '0800 379 372',
     bestFor: 'Maximum liability protection',
     features: {
       comprehensive: true,
@@ -98,7 +94,6 @@ const providers = [
       'FMG (Farmers\' Mutual Group) is the go-to insurer for rural and farming New Zealand. Their Superior Private Vehicles policy covers horse floats, farm trailers, and caravans as part of a broader rural vehicle package. FMG works through a network of rural advisers — ideal if you want someone who understands farming operations and livestock transport.',
     type: 'Rural Vehicle & Trailer Insurance',
     liabilityLimit: 'Contact FMG',
-    phone: '0800 366 466',
     bestFor: 'Horse floats, farm trailers & rural use',
     features: {
       comprehensive: true,
@@ -237,7 +232,7 @@ export default function ComparePage() {
       <section id="comparison-table" className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="mb-10">
-            <h2 className="text-3xl font-bold text-slate-900 mb-3">NZ Trailer Insurance Feature Comparison</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-3">Trailer Insurance Feature Comparison</h2>
             <p className="text-slate-600 text-lg">
               Verified against current policy wordings. All five providers confirmed to offer standalone trailer/caravan policies — not just add-ons.
             </p>
@@ -401,8 +396,6 @@ export default function ComparePage() {
 
                 <div className="mt-4 flex flex-wrap items-center gap-4">
                   <div className="flex items-center gap-2 text-sm text-slate-600">
-                    <Phone className="w-4 h-4 text-amber-500" />
-                    <span>{provider.phone}</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm text-slate-600">
                     <Shield className="w-4 h-4 text-amber-500" />
@@ -489,7 +482,7 @@ export default function ComparePage() {
       {/* What's Covered Section */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4">What NZ Trailer Insurance Typically Covers</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-4">What Trailer Insurance Typically Covers</h2>
           <p className="text-slate-600 text-lg mb-10">
             Standalone trailer insurance policies in New Zealand generally include the following events — but always check your specific policy wording (PDS):
           </p>
@@ -532,7 +525,7 @@ export default function ComparePage() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2">
-            <h2 className="text-3xl font-bold text-slate-900 mb-6">Get Quotes from All NZ Providers in One Step</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-6">Get Quotes from All Providers in One Step</h2>
             <p className="text-lg text-slate-700 mb-6">
               Because every provider requires a phone call to get a trailer insurance quote, going direct means five separate calls — each starting from scratch. Our brokers submit your trailer details once and come back with competitive quotes from the providers that best match your situation.
             </p>

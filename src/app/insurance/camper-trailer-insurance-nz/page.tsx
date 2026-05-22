@@ -165,7 +165,7 @@ export default function CamperTrailerInsurancePage() {
                 Standard camper trailer insurance covers the structure and built-in equipment. Personal camping gear—sleeping bags, cooking equipment, clothing, and valuables—usually need separate contents cover. Given the value of camping equipment, adding contents protection is recommended.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top NZ Insurers for Camper Trailers</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top Insurers for Camper Trailers</h2>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
                 <h3 className="text-2xl font-bold text-amber-600 mb-3">AA Insurance</h3>
@@ -262,7 +262,7 @@ export default function CamperTrailerInsurancePage() {
                 Ask your insurer about agreed value policies. With agreed value, you and the insurer agree on your camper's replacement cost upfront. If a total loss occurs, you receive the agreed amount without depreciation disputes. This is typically more favorable for specialty campers than standard market value assessments.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">NZ-Specific Considerations for Camper Insurance</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Local Considerations for Camper Insurance</h2>
 
               <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">Regional Risk Variations Across New Zealand</h3>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">

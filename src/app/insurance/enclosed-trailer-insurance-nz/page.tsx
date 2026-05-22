@@ -181,7 +181,7 @@ export default function EnclosedTrailerInsurancePage() {
                 Where you park your enclosed trailer affects your premium and coverage. Secure storage (locked compound, garage) commands better rates than street parking or exposed work sites. Be honest about typical parking locations.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top NZ Insurers for Enclosed Trailers</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top Insurers for Enclosed Trailers</h2>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
                 <h3 className="text-2xl font-bold text-amber-600 mb-3">AA Insurance</h3>

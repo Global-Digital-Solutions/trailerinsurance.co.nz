@@ -73,7 +73,6 @@ const schemaOrg = {
       logo: "https://trailerinsurance.co.nz/android-chrome-512x512.png",
       contactPoint: {
         "@type": "ContactPoint",
-        telephone: "+6498859549",
         contactType: "customer service",
         areaServed: "NZ",
         availableLanguage: "English",

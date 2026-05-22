@@ -16,7 +16,7 @@ const footerLinks = {
       { label: 'Contact', href: '/contact' },
       { label: 'Making a Claim', href: '/claims' },
       { label: 'FAQs', href: '/faqs' },
-      { label: 'Blog', href: '/blog' },
+      { label: 'Resources', href: '/blog' },
       { label: 'Coverage Guide', href: '/coverage' },
       { label: 'Compare Providers', href: '/compare' },
     ],

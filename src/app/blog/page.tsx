@@ -22,8 +22,8 @@ export default function BlogPage() {
       >
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-slate-900/60" />
         <div className="relative max-w-4xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6">Trailer Insurance Blog</h1>
-          <p className="text-xl text-slate-200">Tips, guides, and insights for NZ trailer owners and enthusiasts.</p>
+          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6">Resources & Guides</h1>
+          <p className="text-xl text-slate-200">Tips, guides, and insights for trailer owners and enthusiasts.</p>
         </div>
       </section>
 

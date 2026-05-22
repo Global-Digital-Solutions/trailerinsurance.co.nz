@@ -121,7 +121,7 @@ export default function PrivacyPage() {
                 <li><strong>Portability:</strong> Request your information in a portable format</li>
               </ul>
               <p>
-                To exercise any of these rights, please contact us at hello@cover4you.co.nz or 09 885 9549.
+                To exercise any of these rights, please contact us at hello@cover4you.co.nz or hello@cover4you.co.nz.
               </p>
             </div>
 
@@ -160,8 +160,7 @@ export default function PrivacyPage() {
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li><strong>Email:</strong> hello@cover4you.co.nz</li>
-                <li><strong>Phone:</strong> 09 885 9549</li>
-                <li><strong>Hours:</strong> Monday-Friday, 8am-6pm NZST</li>
+                                <li><strong>Hours:</strong> Monday-Friday, 8am-6pm NZST</li>
               </ul>
             </div>
 

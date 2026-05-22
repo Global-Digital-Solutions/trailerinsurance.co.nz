@@ -103,11 +103,7 @@ export default function ThankYouPage() {
             <p className="text-slate-700 mb-6">Get in touch with our team directly:</p>
             <div className="space-y-3">
               <div>
-                <p className="font-semibold text-slate-900">Phone</p>
-                <a href="tel:098859549" className="text-amber-600 hover:text-amber-700 font-semibold">
-                  09 885 9549
-                </a>
-              </div>
+                              </div>
               <div>
                 <p className="font-semibold text-slate-900">Email</p>
                 <a href="mailto:hello@cover4you.co.nz" className="text-amber-600 hover:text-amber-700 font-semibold">

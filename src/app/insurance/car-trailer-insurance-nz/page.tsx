@@ -181,7 +181,7 @@ export default function CarTrailerInsurancePage() {
                 Declare the maximum vehicle values you typically transport. Some policies have limits on vehicle value or total load weight. Exceeding these limits may void coverage.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top NZ Insurers for Car Trailers</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top Insurers for Car Trailers</h2>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
                 <h3 className="text-2xl font-bold text-amber-600 mb-3">AA Insurance</h3>
@@ -255,7 +255,7 @@ export default function CarTrailerInsurancePage() {
                 If your car trailer is in good condition and you're a careful operator, increasing your excess from $500 to $1000 can reduce your premium by 10-20%. Only do this if you can afford to pay the excess if you claim. This strategy works particularly well for business operators with few claims, where the savings over multiple years exceed the higher excess.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">NZ-Specific Considerations for Car Trailer Insurance</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Local Considerations for Car Trailer Insurance</h2>
 
               <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">Business Use Declaration</h3>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">

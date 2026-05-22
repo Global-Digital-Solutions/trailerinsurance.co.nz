@@ -176,7 +176,7 @@ export default function BoxTrailerInsurancePage() {
                 To qualify for comprehensive cover, you'll typically need to use approved wheel clamps and coupling locks. Some insurers offer discounts for alarm systems or tracking devices.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top NZ Insurers for Box Trailers</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top Insurers for Box Trailers</h2>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
                 <h3 className="text-2xl font-bold text-amber-600 mb-3">AA Insurance</h3>

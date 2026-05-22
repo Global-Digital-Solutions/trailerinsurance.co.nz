@@ -123,7 +123,7 @@ export default function BestTrailerInsurancePage() {
         <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">Finding the Best Trailer Insurance in New Zealand</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">Finding the Best Trailer Insurance</h2>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
                 New Zealand has several excellent trailer insurance providers, each with different strengths, coverage options, and pricing. The "best" provider depends on your specific needs, trailer type, and priorities. Some excel at competitive pricing, others at claims support, and some specialise in specific trailer types like boats or caravans.
               </p>
@@ -132,7 +132,7 @@ export default function BestTrailerInsurancePage() {
                 To find the best trailer insurance for your situation, you need to compare not just premiums but also coverage options, excess flexibility, claims handling, and customer service. Getting quotes from multiple providers is essential—premiums can vary significantly for the same coverage level.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top Trailer Insurance Providers in NZ</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top Trailer Insurance Providers</h2>
 
               <p className="text-slate-600 text-sm mb-8 bg-blue-50 border border-blue-200 rounded-lg p-4">
                 <strong>Note (May 2026):</strong> All five providers below require phone contact to obtain a trailer or caravan insurance quote. No self-serve online quote tools currently exist for standalone trailer insurance in New Zealand.
@@ -143,7 +143,7 @@ export default function BestTrailerInsurancePage() {
                 AA Insurance is New Zealand's Most Trusted Insurer for 16 consecutive years and offers a dedicated standalone trailer policy — not just a car insurance add-on. Agreed value cover with $20 million third-party liability. Strong nationwide network and responsive claims handling.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                <strong>Strengths:</strong> Brand trust, agreed value, $20M liability, nationwide repair network. <strong>Best for:</strong> Everyday box and utility trailers, customers who value peace of mind with a name they know. Phone: 0800 500 231.
+                <strong>Strengths:</strong> Brand trust, agreed value, $20M liability, nationwide repair network. <strong>Best for:</strong> Everyday box and utility trailers, customers who value peace of mind with a name they know.
               </p>
 
               <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">AMI Insurance — Best for Caravans</h3>
@@ -151,7 +151,7 @@ export default function BestTrailerInsurancePage() {
                 AMI (IAG Group) offers two separate products: a dedicated Caravan Insurance policy that includes contents cover, and a separate Trailer Insurance policy. The caravan policy includes excess-free key replacement up to $1,000. $20 million third-party liability on both products.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                <strong>Strengths:</strong> Separate caravan policy, contents cover included, IAG Group financial strength. <strong>Best for:</strong> Caravan owners, camper trailer users, horse float owners with living quarters. Phone: 0800 100 200.
+                <strong>Strengths:</strong> Separate caravan policy, contents cover included, IAG Group financial strength. <strong>Best for:</strong> Caravan owners, camper trailer users, horse float owners with living quarters.
               </p>
 
               <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">State Insurance — Best for Bundling</h3>
@@ -167,7 +167,7 @@ export default function BestTrailerInsurancePage() {
                 Tower offers the highest third-party liability limit in the NZ market at $25 million — the most comprehensive financial protection available if your trailer causes a serious accident. Optional contents cover (up to $5,000) and accessories cover ($2,000–$5,000) are available add-ons. All quotes are arranged by phone.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                <strong>Strengths:</strong> $25M liability (highest in market), optional contents cover, accessories cover. <strong>Best for:</strong> Maximum liability protection, larger caravans with contents. Phone: 0800 379 372.
+                <strong>Strengths:</strong> $25M liability (highest in market), optional contents cover, accessories cover. <strong>Best for:</strong> Maximum liability protection, larger caravans with contents.
               </p>
 
               <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">FMG Insurance — Best for Rural &amp; Horse Floats</h3>
@@ -175,7 +175,7 @@ export default function BestTrailerInsurancePage() {
                 FMG (Farmers' Mutual Group) is New Zealand's specialist rural insurer. Their Superior Private Vehicles policy covers horse floats, farm trailers, and caravans — with advisers who genuinely understand farming operations, rural roads, and equestrian use. If you&apos;re insuring a horse float worth $15,000 or more, FMG should be your first call.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                <strong>Strengths:</strong> Rural expertise, horse float specialists, personalised adviser service. <strong>Best for:</strong> Anyone in the primary sector — horse float owners, farmers, rural lifestyle block owners. Phone: 0800 366 466.
+                <strong>Strengths:</strong> Rural expertise, horse float specialists, personalised adviser service. <strong>Best for:</strong> Anyone in the primary sector — horse float owners, farmers, rural lifestyle block owners.
               </p>
 
               <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">What to Compare When Choosing Trailer Insurance</h2>

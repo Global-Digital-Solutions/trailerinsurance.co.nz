@@ -112,7 +112,6 @@ export default function HomePage() {
             "logo": "https://trailerinsurance.co.nz/favicon.ico",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+64-9-885-9549",
               "contactType": "customer service",
               "areaServed": "NZ",
               "availableLanguage": "English"
@@ -339,7 +338,7 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-14">
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">Frequently Asked Questions</h2>
-              <p className="text-slate-600 text-lg">Find answers to common questions about trailer insurance in New Zealand</p>
+              <p className="text-slate-600 text-lg">Find answers to common questions about trailer insurance</p>
             </div>
 
             <div className="space-y-3">
@@ -373,7 +372,7 @@ export default function HomePage() {
               <div>
                 <span className="inline-block bg-amber-100 text-amber-700 text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-3">Guides</span>
                 <h2 className="text-3xl sm:text-4xl font-bold text-slate-900">Trailer Insurance Guides</h2>
-                <p className="text-slate-600 mt-2 max-w-xl">Everything you need to know about insuring your trailer in New Zealand</p>
+                <p className="text-slate-600 mt-2 max-w-xl">Everything you need to know about insuring your trailer</p>
               </div>
               <Link href="/compare" className="flex-shrink-0 text-amber-600 font-semibold hover:text-amber-700 transition-colors text-sm inline-flex items-center gap-1.5">
                 Compare providers <span>→</span>

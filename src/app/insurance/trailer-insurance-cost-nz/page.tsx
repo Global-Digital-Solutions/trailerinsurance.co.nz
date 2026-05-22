@@ -120,7 +120,7 @@ export default function TrailerInsuranceCostPage() {
         <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">Understanding Trailer Insurance Costs in New Zealand</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">Understanding Trailer Insurance Costs</h2>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
                 Trailer insurance costs in New Zealand vary widely depending on your trailer type, value, age, how you use it, and the coverage you choose. There's no single answer to "how much does trailer insurance cost?" because premiums are individually calculated based on risk factors specific to your situation.
               </p>

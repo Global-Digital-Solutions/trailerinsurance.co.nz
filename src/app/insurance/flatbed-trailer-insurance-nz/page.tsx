@@ -181,7 +181,7 @@ export default function FlatbedTrailerInsurancePage() {
                 Commercial trailers must be well-maintained. Regular brake maintenance, electrical inspection, and structural checks are essential. Insurers may deny claims if poor maintenance contributed to damage.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top NZ Insurers for Commercial Flatbed Trailers</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Top Insurers for Commercial Flatbed Trailers</h2>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
                 <h3 className="text-2xl font-bold text-amber-600 mb-3">AA Insurance</h3>
@@ -279,7 +279,7 @@ export default function FlatbedTrailerInsurancePage() {
                 Heavy-duty trailers occasionally need emergency recovery—winching out, towing after breakdowns, or crane assistance. Some insurers include roadside assistance; others charge extra. For commercial operations, roadside assistance is worth considering. Recovery costs for heavy flatbeds can be substantial ($2000-$5000+). Adding recovery coverage provides peace of mind knowing you're covered if mechanical issues occur far from your base.
               </p>
 
-              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">NZ-Specific Considerations for Commercial Flatbed Operations</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">Local Considerations for Commercial Flatbed Operations</h2>
 
               <h3 className="text-2xl font-bold text-slate-900 mb-4 mt-8">Regional Operating Patterns and Risks</h3>
               <p className="text-lg text-slate-700 leading-relaxed mb-6">
