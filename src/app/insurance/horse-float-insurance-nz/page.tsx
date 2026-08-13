@@ -182,18 +182,7 @@ export default function HorseFloatInsurancePage() {
               </p>
 
               <h2 className="text-3xl font-bold text-slate-900 mb-3 mt-12">Top Insurers for Horse Float Cover</h2>
-              <p className="text-slate-600 text-base mb-6">All four providers below require phone contact to obtain a horse float insurance quote — no online quote tools exist for this product in NZ.</p>
-
-              <div className="bg-amber-50 p-8 rounded-2xl border-2 border-amber-300 mb-6">
-                <div className="flex items-center gap-3 mb-3">
-                  <h3 className="text-2xl font-bold text-amber-700">FMG Insurance</h3>
-                  <span className="text-xs font-bold bg-orange-500 text-white px-2.5 py-1 rounded-full">Top Pick for Horse Floats</span>
-                </div>
-                <p className="text-slate-700 mb-3">
-                  FMG (Farmers&apos; Mutual Group) is the specialist choice for horse float owners in New Zealand. Their Superior Private Vehicles policy is designed for rural and equestrian use — advisers understand horse float construction, equestrian events, and rural road risks that city-based insurers often overlook. If your horse float is worth $20,000 or more, talking to FMG first is strongly recommended.
-                </p>
-                <p className="text-slate-500 text-sm font-medium">Best for: horse float owners, rural properties, equestrian event travel.</p>
-              </div>
+              <p className="text-slate-600 text-base mb-6">All providers below require phone contact to obtain a horse float insurance quote — no online quote tools exist for this product in NZ.</p>
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200 mb-6">
                 <div className="flex items-center gap-3 mb-3">

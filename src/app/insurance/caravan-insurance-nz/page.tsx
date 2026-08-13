@@ -119,7 +119,7 @@ export default function CaravanInsurancePage() {
               </p>
 
               <p className="text-lg text-slate-700 leading-relaxed mb-8">
-                New Zealand's top insurers — AA Insurance, AMI Insurance, State Insurance, Tower, and FMG — all offer specialised standalone caravan policies with flexibility to match your needs. The right policy protects not just the caravan structure but also the electrical systems, appliances, and contents that make your travels comfortable. Importantly, all NZ caravan insurers require phone contact to obtain a quote — no self-serve online quote tools exist for caravans in NZ.
+                New Zealand's top insurers — AA Insurance, AMI Insurance, State Insurance, and Tower — all offer specialised standalone caravan policies with flexibility to match your needs. The right policy protects not just the caravan structure but also the electrical systems, appliances, and contents that make your travels comfortable. Importantly, all NZ caravan insurers require phone contact to obtain a quote — no self-serve online quote tools exist for caravans in NZ.
               </p>
 
               <h2 className="text-3xl font-bold text-slate-900 mb-6 mt-12">What Caravan Insurance Covers</h2>

@@ -336,7 +336,7 @@ export default function BoatTrailerInsurancePage() {
                   Don't leave your valuable boat trailer exposed to corrosion, theft, and damage. Get a quote for specialist boat trailer insurance today and enjoy peace of mind knowing your investment is protected.
                 </p>
                 <p className="text-lg text-slate-700">
-                  We work with NZ's leading trailer insurers — AA, AMI, State, Tower, and FMG — to find the best cover for your boat trailer. One form, multiple quotes.
+                  We work with NZ's leading trailer insurers — AA, AMI, State, and Tower — to find the best cover for your boat trailer. One form, multiple quotes.
                 </p>
               </div>
               <div>

@@ -85,26 +85,6 @@ const providers = [
       onlineQuotes: false,
     },
   },
-  {
-    name: 'FMG Insurance',
-    domain: 'fmg.co.nz',
-    badge: 'Rural Specialist',
-    badgeColor: 'bg-orange-100 text-orange-800',
-    description:
-      'FMG (Farmers\' Mutual Group) is the go-to insurer for rural and farming New Zealand. Their Superior Private Vehicles policy covers horse floats, farm trailers, and caravans as part of a broader rural vehicle package. FMG works through a network of rural advisers — ideal if you want someone who understands farming operations and livestock transport.',
-    type: 'Rural Vehicle & Trailer Insurance',
-    liabilityLimit: 'Contact FMG',
-    bestFor: 'Horse floats, farm trailers & rural use',
-    features: {
-      comprehensive: true,
-      thirdParty: true,
-      agreedValue: false,
-      naturalDisaster: true,
-      contentsCover: false,
-      roadsideAssist: false,
-      onlineQuotes: false,
-    },
-  },
 ];
 
 const featureLabels: Record<string, string> = {
@@ -131,7 +111,7 @@ const trailerTypes = [
   {
     icon: Shield,
     title: 'Horse Floats',
-    desc: 'Specialist trailers with high values ($15,000–$80,000+). FMG Insurance dominates this segment with rural adviser expertise. Livestock welfare and breakdowns far from help are key risks.',
+    desc: 'Specialist trailers with high values ($15,000–$80,000+). Specialist rural insurers and mainstream providers both offer horse float cover. Livestock welfare and breakdowns far from help are key risks.',
   },
   {
     icon: Truck,
@@ -455,8 +435,8 @@ export default function ComparePage() {
             </div>
 
             <div className="bg-white border border-orange-200 rounded-xl p-6 shadow-sm">
-              <h3 className="font-bold text-slate-900 mb-2 text-lg">🌾 Best for rural & horse floats: FMG Insurance</h3>
-              <p className="text-slate-700">FMG is the clear choice for farming New Zealand. Their rural advisers understand horse floats, farm trailers, livestock transport, and the specific risks of rural operations. FMG doesn&apos;t just understand trailers — they understand the land and the lifestyle. Essential if you&apos;re covering a horse float worth $30,000+.</p>
+              <h3 className="font-bold text-slate-900 mb-2 text-lg">🌾 Best for rural & horse floats: specialist rural insurer</h3>
+              <p className="text-slate-700">Rural and equestrian trailer owners — especially horse floats worth $20,000+ — benefit most from a specialist rural insurer whose advisers understand farm operations, equestrian events, and livestock transport. Contact us and we will match you with the right broker for your situation.</p>
             </div>
 
             <div className="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">

@@ -317,11 +317,11 @@ export default function ComprehensivePage() {
 
               <div className="bg-white p-8 rounded-2xl border border-slate-200">
                 <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-2xl font-bold text-amber-600">FMG Insurance</h3>
+                  <h3 className="text-2xl font-bold text-amber-600">Rural Specialist Insurers</h3>
                   <span className="text-xs font-bold bg-orange-100 text-orange-800 px-2.5 py-1 rounded-full">Rural Specialist</span>
                 </div>
                 <p className="text-slate-700 mb-3">
-                  FMG (Farmers' Mutual Group) covers trailers, horse floats, and caravans under their Superior Private Vehicles policy — designed specifically for rural New Zealand. FMG advisers understand farm operations, rural roads, and livestock transport requirements that mainstream city-focused insurers may not.
+                  Specialist rural insurers cover trailers, horse floats, and caravans under rural vehicle policies designed specifically for farming New Zealand. Rural advisers understand farm operations, rural roads, and livestock transport requirements that mainstream city-focused insurers may not.
                 </p>
                 <p className="text-slate-500 text-sm">Best for: horse floats, farm trailers, rural use, and anyone in the primary sector.</p>
               </div>
