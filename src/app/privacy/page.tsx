@@ -1,6 +1,7 @@
 export const metadata = {
   title: 'Privacy Policy | TrailerInsurance.co.nz',
   description: 'Privacy policy for TrailerInsurance.co.nz. How we collect, use, and protect your personal information.',
+  alternates: { canonical: 'https://www.trailerinsurance.co.nz/privacy/' },
 };
 
 export default function PrivacyPage() {

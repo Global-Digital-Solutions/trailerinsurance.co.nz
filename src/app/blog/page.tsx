@@ -6,6 +6,7 @@ import NewsletterForm from '@/components/NewsletterForm';
 export const metadata = {
   title: 'Blog | Trailer Insurance Tips & Guides | TrailerInsurance.co.nz',
   description: 'Read our blog for trailer insurance tips, guides, and industry insights for NZ trailer owners.',
+  alternates: { canonical: 'https://www.trailerinsurance.co.nz/blog/' },
 };
 
 export default function BlogPage() {

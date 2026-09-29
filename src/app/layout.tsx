@@ -32,7 +32,6 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "TrailerInsurance.co.nz" }],
   metadataBase: new URL('https://www.trailerinsurance.co.nz'),
-  alternates: { canonical: "https://www.trailerinsurance.co.nz" },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     type: "website",

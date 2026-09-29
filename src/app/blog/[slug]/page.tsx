@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${post.title} | TrailerInsurance.co.nz`,
     description: post.excerpt,
+    alternates: { canonical: `https://www.trailerinsurance.co.nz/blog/${slug}/` },
   };
 }
 

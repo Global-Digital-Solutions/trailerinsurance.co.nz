@@ -6,6 +6,7 @@ import CTABanner from '@/components/CTABanner';
 export const metadata = {
   title: 'About TrailerInsurance.co.nz | NZ Trailer Insurance',
   description: 'Learn about TrailerInsurance.co.nz. Connecting Kiwis with the right trailer insurance through FSP registered brokers, no fees, and 24-hour support.',
+  alternates: { canonical: 'https://www.trailerinsurance.co.nz/about/' },
 };
 
 export default function AboutPage() {

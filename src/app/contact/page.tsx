@@ -4,6 +4,7 @@ import QuoteForm from '@/components/QuoteForm';
 export const metadata = {
   title: 'Contact TrailerInsurance.co.nz | Get a Quote',
   description: 'Contact our NZ trailer insurance brokers. Phone hello@cover4you.co.nz, email hello@cover4you.co.nz, or fill out our quick quote form for a free comparison.',
+  alternates: { canonical: 'https://www.trailerinsurance.co.nz/contact/' },
 };
 
 const usps = [

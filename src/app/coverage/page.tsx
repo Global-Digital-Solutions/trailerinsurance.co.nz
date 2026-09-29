@@ -6,6 +6,7 @@ import CTABanner from '@/components/CTABanner';
 export const metadata = {
   title: 'Trailer Insurance Coverage Guide | TrailerInsurance.co.nz',
   description: 'Complete guide to trailer insurance coverage in NZ. Understand what\'s covered, compare coverage levels, and find the right policy for your trailer.',
+  alternates: { canonical: 'https://www.trailerinsurance.co.nz/coverage/' },
 };
 
 const coverageTypes = [

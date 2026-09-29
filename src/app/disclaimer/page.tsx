@@ -3,6 +3,7 @@ import { AlertCircle } from 'lucide-react';
 export const metadata = {
   title: 'Disclaimer | TrailerInsurance.co.nz',
   description: 'Important disclaimer regarding TrailerInsurance.co.nz services and the information provided on our website.',
+  alternates: { canonical: 'https://www.trailerinsurance.co.nz/disclaimer/' },
 };
 
 export default function DisclaimerPage() {

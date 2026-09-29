@@ -1,6 +1,7 @@
 export const metadata = {
   title: 'Terms and Conditions | TrailerInsurance.co.nz',
   description: 'Terms and conditions for use of TrailerInsurance.co.nz website.',
+  alternates: { canonical: 'https://www.trailerinsurance.co.nz/terms/' },
 };
 
 export default function TermsPage() {

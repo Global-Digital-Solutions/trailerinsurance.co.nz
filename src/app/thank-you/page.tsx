@@ -4,6 +4,7 @@ import { CheckCircle, Clock, MessageSquare, HelpCircle } from 'lucide-react';
 export const metadata = {
   title: 'Thank You for Your Quote Request | TrailerInsurance.co.nz',
   description: 'Your quote request has been received. A broker will respond within 24 hours.',
+  alternates: { canonical: 'https://www.trailerinsurance.co.nz/thank-you/' },
 };
 
 export default function ThankYouPage() {
